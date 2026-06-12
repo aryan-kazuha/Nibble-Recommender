@@ -1,0 +1,27 @@
+.wrap { padding: 0 24px 100px; }
+
+.section { margin-top: 32px; }
+
+.sectionTitle {
+  width: 100px;
+  height: 12px;
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  gap: 12px;
+}
+
+.rowLeft  { display: flex; align-items: flex-start; gap: 10px; flex: 1; }
+.rowRight { display: flex; align-items: center; gap: 10px; }
+
+.badge { width: 14px; height: 14px; border-radius: 3px; margin-top: 2px; flex-shrink: 0; }
+.name  { width: 130px; height: 13px; margin-bottom: 5px; }
+.cat   { width: 80px;  height: 11px; }
+.price { width: 38px;  height: 13px; }
+.btn   { width: 30px;  height: 30px; border-radius: 8px; }

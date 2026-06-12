@@ -1,0 +1,35 @@
+.section {
+  margin-top: 32px;
+  scroll-margin-top: 110px; /* Offset for sticky header */
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-3);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.count {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-4);
+  background: var(--bg-4);
+  border-radius: 100px;
+  padding: 1px 6px;
+  order: -1;
+  text-transform: none;
+  letter-spacing: 0;
+}

@@ -1,0 +1,27 @@
+# Prerequisites
+*.pyc
+__pycache__/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+
+# Local env files (security risk)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

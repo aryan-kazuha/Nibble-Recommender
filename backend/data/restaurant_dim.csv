@@ -1,0 +1,41 @@
+restaurant_id,restaurant_name,cuisine_tags,zone_id,avg_rating,top_items_ids
+R001,MTR,South Indian|Breakfast|Vegetarian,Koramangala,4.3,I0014|I0016|I0010|I0008|I0009
+R002,Meghana Foods,Biryani|Andhra|Non-Veg,Koramangala,3.5,I0022|I0028|I0026|I0019|I0031
+R003,Domino's Pizza,Pizza|Fast Food|Italian,Indiranagar,3.9,I0046|I0035|I0034|I0039|I0043
+R004,McDonald's,Burgers|Fast Food|American,Whitefield,3.8,I0058|I0056|I0054|I0061|I0057
+R005,KFC,Fried Chicken|Fast Food|American,HSR Layout,4.5,I0078|I0075|I0076|I0067|I0068
+R006,Burger King,Burgers|Fast Food|American,Marathahalli,4.4,I0091|I0084|I0083|I0086|I0081
+R007,Pizza Hut,Pizza|Italian|Fast Food,Jayanagar,4.7,I0097|I0101|I0104|I0106|I0103
+R008,Subway,Sandwiches|Healthy|American,MG Road,3.6,I0114|I0123|I0121|I0118|I0115
+R009,Taco Bell,Mexican|Fast Food|American,Indiranagar,4.0,I0136|I0139|I0133|I0135|I0128
+R010,Empire Restaurant,Biryani|Kebabs|Non-Veg,Church Street,3.5,I0146|I0143|I0149|I0151|I0144
+R011,Udupi Palace,South Indian|Vegetarian|Breakfast,Rajajinagar,3.8,I0167|I0170|I0166|I0158|I0171
+R012,Vidyarthi Bhavan,South Indian|Breakfast|Vegetarian,Basavanagudi,4.2,I0177|I0180|I0186|I0183|I0182
+R013,Truffles,Burgers|Continental|Cafe,Koramangala,3.5,I0198|I0199|I0189|I0200|I0193
+R014,Social,Continental|Cocktails|Fusion,Indiranagar,3.8,I0212|I0211|I0213|I0216|I0214
+R015,The permit Room,Kerala|Cocktails|Seafood,Indiranagar,4.3,I0230|I0225|I0229|I0233|I0227
+R016,Nagarjuna,Andhra|Biryani|Non-Veg,Residency Road,4.2,I0243|I0248|I0247|I0240|I0234
+R017,Koshy's,Continental|Breakfast|Cafe,MG Road,3.8,I0258|I0251|I0250|I0256|I0252
+R018,Punjabi Dhaba,North Indian|Punjabi|Non-Veg,Rajajinagar,4.3,I0266|I0285|I0271|I0273|I0270
+R019,Saravana Bhavan,South Indian|Vegetarian|Tamil,Shivajinagar,4.6,I0295|I0296|I0290|I0288|I0286
+R020,Barbeque Nation,BBQ|Buffet|Non-Veg,Whitefield,3.5,I0313|I0314|I0306|I0305|I0310
+R021,Chili's,American|Continental|Burgers,Whitefield,4.5,I0318|I0322|I0330|I0324|I0332
+R022,Hard Rock Cafe,American|Continental|Burgers,MG Road,4.4,I0340|I0344|I0343|I0341|I0339
+R023,Onesta,Pizza|Pasta|Italian,HSR Layout,3.9,I0352|I0357|I0361|I0360|I0353
+R024,Slice of Italy,Pizza|Pasta|Italian,Koramangala,3.7,I0375|I0374|I0364|I0370|I0378
+R025,Biryani By Kilo,Biryani|Mughlai|Non-Veg,HSR Layout,4.7,I0392|I0391|I0389|I0384|I0387
+R026,Behrouz Biryani,Biryani|Mughlai|Non-Veg,Marathahalli,3.9,I0396|I0395|I0406|I0399|I0398
+R027,Faasos,Wraps|Fast Food|North Indian,Electronic City,3.6,I0430|I0425|I0418|I0422|I0417
+R028,Box8,North Indian|Meals|Healthy,Bellandur,3.6,I0438|I0441|I0446|I0437|I0434
+R029,Freshmenu,Continental|Healthy|Fusion,Koramangala,4.6,I0455|I0467|I0464|I0461|I0454
+R030,The Fatty Bao,Asian|Pan-Asian|Dim Sum,Indiranagar,4.3,I0474|I0468|I0482|I0472|I0476
+R031,Byg Brewski,Craft Beer|Continental|Pub,Hennur,4.5,I0487|I0485|I0496|I0492|I0497
+R032,Toit,Craft Beer|Continental|Pub,Indiranagar,4.4,I0498|I0503|I0505|I0509|I0500
+R033,Brahmin's Coffee Bar,South Indian|Breakfast|Vegetarian,Basavanagudi,4.2,I0514|I0515|I0518|I0522|I0513
+R034,Chianti,Italian|Continental|Fine Dining,Lavelle Road,4.8,I0541|I0539|I0538|I0542|I0533
+R035,Karavalli,Coastal|Seafood|Kerala,Residency Road,4.0,I0551|I0556|I0553|I0552|I0549
+R036,Ebony,Continental|Fine Dining|Rooftop,MG Road,4.2,I0560|I0571|I0570|I0564|I0567
+R037,Punjabi By Nature,North Indian|Punjabi|Fine Dining,Koramangala,4.6,I0581|I0579|I0590|I0576|I0592
+R038,Halli Mane,Karnataka|Traditional|Vegetarian,Malleswaram,4.3,I0597|I0601|I0603|I0607|I0608
+R039,Shivaji Military Hotel,Non-Veg|Mutton|Local,Malleswaram,4.6,I0611|I0615|I0613|I0622|I0620
+R040,Chutney Chang,South Indian|Fusion|Cafe,Bellandur,4.3,I0635|I0630|I0639|I0629|I0628

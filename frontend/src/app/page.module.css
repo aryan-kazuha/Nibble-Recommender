@@ -1,0 +1,174 @@
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+/* ── HERO ── */
+.hero {
+  padding: 36px 24px 24px;
+  max-width: 620px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  line-height: 1.22;
+  color: var(--text-1);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--text-2);
+  margin-bottom: 22px;
+  line-height: 1.6;
+}
+
+/* ── SEARCH ── */
+.searchWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  transition: border-color 0.15s;
+  cursor: text;
+  max-width: 520px;
+}
+
+.searchWrap:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.searchIcon {
+  color: var(--text-3);
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+.searchInput {
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text-1);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  flex: 1;
+  width: 100%;
+}
+
+.searchInput::placeholder { color: var(--text-3); }
+
+/* remove native search clear button */
+.searchInput::-webkit-search-cancel-button { display: none; }
+
+/* ── FILTERS ── */
+.filterStrip {
+  display: flex;
+  gap: 6px;
+  padding: 6px 24px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.filterStrip::-webkit-scrollbar { display: none; }
+
+.pill {
+  flex-shrink: 0;
+  padding: 5px 12px;
+  border-radius: 100px;
+  border: 1px solid var(--border-2);
+  background: var(--bg-3);
+  color: var(--text-2);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+
+.pill:hover {
+  border-color: rgba(99, 102, 241, 0.5);
+  color: var(--accent-2);
+}
+
+.pillActive {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent-2);
+}
+
+/* ── COUNT ── */
+.countLabel {
+  padding: 0 24px 12px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── GRID ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0 24px;
+}
+
+/* ── STATES ── */
+.error {
+  grid-column: 1 / -1;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  font-size: 13px;
+  color: var(--red);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.error code {
+  font-size: 11px;
+  opacity: 0.7;
+  font-family: monospace;
+}
+
+.noResults {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-3);
+  font-size: 13px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 0 16px;
+  }
+
+  .hero { padding: 24px 16px 20px; }
+  .filterStrip { padding: 6px 16px 14px; }
+  .countLabel { padding: 0 16px 10px; }
+  .title { font-size: 22px; }
+}

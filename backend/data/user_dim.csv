@@ -1,0 +1,301 @@
+user_id,user_segment,avg_order_value,preferred_cuisines,spiciness_preference,sweetness_preference,home_zone_id
+U0001,Premium,1143,Biryani|Asian|North Indian|Continental,0.39,0.52,Lavelle Road
+U0002,Premium,849,Continental|Biryani|Asian,0.58,0.57,Indiranagar
+U0003,Mid,444,Pizza|Asian|Continental,0.31,0.41,Church Street
+U0004,Budget,199,South Indian|Pizza,0.53,0.22,Residency Road
+U0005,Mid,407,Continental|Biryani|South Indian|Asian,0.57,0.51,Jayanagar
+U0006,Mid,378,Biryani|Asian,0.31,0.49,Koramangala
+U0007,Budget,214,North Indian|Continental,0.62,0.37,Electronic City
+U0008,Mid,507,Biryani|Pizza|Asian|Burgers,0.47,0.21,Koramangala
+U0009,Mid,337,Asian|Burgers|North Indian,0.44,0.4,Jayanagar
+U0010,Budget,262,Continental|South Indian,0.55,0.45,Lavelle Road
+U0011,Budget,250,Burgers|South Indian|North Indian,0.72,0.45,Marathahalli
+U0012,Premium,611,Biryani|Asian,0.42,0.52,Electronic City
+U0013,Mid,343,North Indian|South Indian|Continental|Burgers,0.42,0.5,Bellandur
+U0014,Budget,214,Asian|Biryani|Pizza|Continental,0.48,0.25,Jayanagar
+U0015,Budget,167,Continental|North Indian|Burgers|South Indian,0.5,0.26,Lavelle Road
+U0016,Budget,167,North Indian|Pizza|Asian,0.76,0.3,HSR Layout
+U0017,Mid,486,Biryani|North Indian,0.62,0.58,Lavelle Road
+U0018,Mid,523,Burgers|North Indian|Continental|Pizza,0.41,0.34,Shivajinagar
+U0019,Budget,228,Pizza|Biryani|North Indian|South Indian,0.59,0.23,Whitefield
+U0020,Budget,169,Burgers|Biryani|Pizza|Continental,0.69,0.47,Whitefield
+U0021,Premium,1164,Continental|Burgers|South Indian|North Indian,0.3,0.66,Electronic City
+U0022,Budget,300,Pizza|Asian|Biryani,0.69,0.29,Electronic City
+U0023,Budget,152,Burgers|South Indian|Pizza|Asian,0.67,0.45,Shivajinagar
+U0024,Budget,294,Burgers|Asian,0.78,0.4,Church Street
+U0025,Premium,641,North Indian|Asian,0.29,0.5,Lavelle Road
+U0026,Budget,202,Continental|Asian|Biryani,0.61,0.44,Koramangala
+U0027,Premium,931,Asian|North Indian|Burgers|South Indian,0.24,0.69,Electronic City
+U0028,Mid,487,Pizza|North Indian,0.54,0.56,Electronic City
+U0029,Premium,828,Continental|Asian|Pizza,0.41,0.44,Residency Road
+U0030,Mid,371,Burgers|North Indian|South Indian|Pizza,0.48,0.29,Bellandur
+U0031,Budget,180,Burgers|Biryani|Continental,0.66,0.32,Church Street
+U0032,Mid,382,Biryani|South Indian,0.56,0.36,Bellandur
+U0033,Budget,281,South Indian|North Indian,0.42,0.37,Bellandur
+U0034,Mid,507,Burgers|Asian,0.54,0.43,Basavanagudi
+U0035,Premium,821,South Indian|Asian|Continental,0.38,0.7,HSR Layout
+U0036,Mid,393,Burgers|Asian,0.55,0.4,Malleswaram
+U0037,Premium,670,Biryani|South Indian,0.29,0.45,MG Road
+U0038,Premium,1116,Biryani|South Indian|Continental|Asian,0.47,0.63,MG Road
+U0039,Mid,347,Pizza|Biryani|Continental|Asian,0.49,0.25,Marathahalli
+U0040,Premium,1142,Asian|Continental|North Indian,0.37,0.68,Rajajinagar
+U0041,Mid,430,North Indian|Pizza,0.49,0.29,Hennur
+U0042,Budget,151,Pizza|Biryani|Asian|Burgers,0.68,0.44,Electronic City
+U0043,Mid,461,Burgers|Pizza|North Indian,0.46,0.24,Indiranagar
+U0044,Premium,1033,Continental|South Indian|Asian|Pizza,0.43,0.54,Bellandur
+U0045,Budget,292,North Indian|Burgers|Continental|South Indian,0.59,0.5,Rajajinagar
+U0046,Mid,528,South Indian|Pizza,0.61,0.58,Electronic City
+U0047,Mid,581,South Indian|Continental,0.55,0.47,Residency Road
+U0048,Premium,748,Biryani|North Indian,0.39,0.54,Lavelle Road
+U0049,Budget,159,Pizza|Burgers|Asian,0.69,0.48,Basavanagudi
+U0050,Mid,329,Continental|Asian|Biryani|South Indian,0.68,0.53,MG Road
+U0051,Budget,158,South Indian|Pizza|Asian|Biryani,0.71,0.35,Marathahalli
+U0052,Budget,150,Asian|Continental|North Indian,0.79,0.23,Electronic City
+U0053,Mid,402,Biryani|Pizza,0.51,0.49,Basavanagudi
+U0054,Mid,586,South Indian|Pizza|Asian,0.67,0.34,Shivajinagar
+U0055,Premium,1188,Biryani|Pizza|Asian|North Indian,0.2,0.37,Malleswaram
+U0056,Premium,1125,North Indian|Burgers|Continental|Pizza,0.58,0.65,Church Street
+U0057,Mid,473,Pizza|Biryani|Continental,0.68,0.38,Rajajinagar
+U0058,Budget,247,Burgers|South Indian|North Indian|Continental,0.65,0.5,Marathahalli
+U0059,Mid,304,Biryani|Continental|North Indian,0.58,0.31,Jayanagar
+U0060,Mid,391,North Indian|South Indian|Burgers|Continental,0.49,0.34,Whitefield
+U0061,Budget,211,Asian|South Indian,0.75,0.26,Marathahalli
+U0062,Budget,177,Continental|Pizza|Biryani|Burgers,0.45,0.22,Church Street
+U0063,Budget,230,Asian|North Indian|Continental|South Indian,0.6,0.5,MG Road
+U0064,Budget,206,Asian|Continental|Burgers|Biryani,0.7,0.24,MG Road
+U0065,Budget,194,Continental|North Indian|Biryani|Pizza,0.58,0.24,Whitefield
+U0066,Budget,175,South Indian|Pizza|North Indian,0.53,0.38,Lavelle Road
+U0067,Budget,237,Continental|Burgers,0.55,0.35,Marathahalli
+U0068,Budget,252,Pizza|Burgers,0.51,0.25,Lavelle Road
+U0069,Premium,876,South Indian|Asian|Burgers,0.52,0.52,Church Street
+U0070,Premium,780,Pizza|Asian|North Indian|Continental,0.37,0.35,Basavanagudi
+U0071,Budget,295,Biryani|South Indian,0.42,0.23,Indiranagar
+U0072,Mid,349,North Indian|Pizza|Burgers,0.48,0.33,Indiranagar
+U0073,Budget,255,South Indian|Pizza|Burgers|Asian,0.45,0.46,Basavanagudi
+U0074,Budget,280,Continental|Pizza,0.59,0.42,Basavanagudi
+U0075,Mid,374,Continental|Burgers|Pizza,0.65,0.46,Electronic City
+U0076,Premium,673,North Indian|Burgers|Asian,0.23,0.44,Indiranagar
+U0077,Mid,502,Burgers|Pizza|Asian,0.41,0.38,Shivajinagar
+U0078,Mid,394,Burgers|North Indian,0.64,0.25,Jayanagar
+U0079,Budget,251,Pizza|Biryani|Burgers,0.44,0.22,Electronic City
+U0080,Mid,342,Burgers|Continental,0.34,0.45,Basavanagudi
+U0081,Budget,222,Asian|South Indian|Biryani|Pizza,0.58,0.24,Marathahalli
+U0082,Premium,933,North Indian|Pizza|Continental|South Indian,0.55,0.49,Bellandur
+U0083,Mid,533,Continental|Pizza|Burgers|North Indian,0.55,0.45,Marathahalli
+U0084,Mid,416,Continental|North Indian|South Indian,0.62,0.38,Basavanagudi
+U0085,Budget,283,North Indian|Continental|Pizza,0.73,0.45,Residency Road
+U0086,Mid,551,Asian|Continental,0.68,0.39,Basavanagudi
+U0087,Mid,303,Continental|Asian|South Indian|Pizza,0.52,0.28,Electronic City
+U0088,Premium,825,Pizza|Asian,0.31,0.47,Indiranagar
+U0089,Budget,286,South Indian|Asian,0.72,0.32,Basavanagudi
+U0090,Budget,266,Continental|South Indian|North Indian|Biryani,0.65,0.28,HSR Layout
+U0091,Budget,286,North Indian|South Indian|Continental,0.41,0.49,Residency Road
+U0092,Budget,188,North Indian|Continental|Asian,0.41,0.27,Shivajinagar
+U0093,Mid,316,Biryani|North Indian,0.43,0.54,Electronic City
+U0094,Budget,270,Asian|Continental|Biryani,0.47,0.47,Rajajinagar
+U0095,Premium,854,Burgers|Biryani,0.35,0.69,Whitefield
+U0096,Mid,348,Continental|Burgers|North Indian,0.51,0.59,Malleswaram
+U0097,Budget,160,North Indian|Continental,0.7,0.36,Basavanagudi
+U0098,Budget,163,South Indian|Burgers,0.75,0.27,Hennur
+U0099,Budget,192,Asian|South Indian|Biryani,0.72,0.38,Koramangala
+U0100,Mid,543,South Indian|Asian,0.58,0.26,Church Street
+U0101,Budget,236,Biryani|Asian|North Indian|South Indian,0.77,0.5,Rajajinagar
+U0102,Budget,209,Asian|North Indian|Continental|South Indian,0.53,0.37,Residency Road
+U0103,Mid,483,Continental|Burgers,0.59,0.3,Shivajinagar
+U0104,Mid,577,Pizza|North Indian,0.58,0.28,Malleswaram
+U0105,Mid,440,South Indian|Biryani|Pizza|Asian,0.65,0.44,Shivajinagar
+U0106,Budget,217,Pizza|Continental|South Indian|Biryani,0.62,0.34,Marathahalli
+U0107,Mid,422,Asian|Continental|South Indian|Burgers,0.43,0.23,HSR Layout
+U0108,Mid,465,Pizza|Burgers,0.46,0.33,Jayanagar
+U0109,Budget,183,Continental|South Indian,0.47,0.21,Rajajinagar
+U0110,Budget,249,Pizza|North Indian|Biryani|Burgers,0.66,0.36,Lavelle Road
+U0111,Mid,336,Continental|Biryani|Asian|Burgers,0.31,0.57,Marathahalli
+U0112,Mid,512,Asian|Pizza,0.63,0.52,Indiranagar
+U0113,Mid,336,Pizza|Biryani,0.63,0.23,Rajajinagar
+U0114,Mid,572,South Indian|Pizza|Asian|Continental,0.45,0.28,Rajajinagar
+U0115,Mid,595,Continental|Biryani|South Indian|Pizza,0.44,0.38,Electronic City
+U0116,Mid,380,North Indian|Pizza|Asian,0.51,0.44,Marathahalli
+U0117,Mid,520,Pizza|Asian,0.63,0.33,Whitefield
+U0118,Budget,290,Continental|Asian|Biryani,0.77,0.28,Koramangala
+U0119,Premium,616,Biryani|North Indian|South Indian,0.41,0.7,Whitefield
+U0120,Premium,622,Pizza|Asian|Burgers,0.51,0.68,HSR Layout
+U0121,Budget,267,Pizza|South Indian|Burgers,0.54,0.24,Indiranagar
+U0122,Premium,694,Burgers|Biryani,0.43,0.53,Malleswaram
+U0123,Mid,388,Pizza|Biryani|Asian|North Indian,0.5,0.56,Koramangala
+U0124,Mid,595,North Indian|Continental|Burgers,0.45,0.51,Rajajinagar
+U0125,Premium,832,Burgers|Asian,0.5,0.64,Electronic City
+U0126,Budget,284,North Indian|Pizza,0.42,0.36,Lavelle Road
+U0127,Budget,250,Pizza|Biryani|South Indian|Continental,0.79,0.43,Basavanagudi
+U0128,Mid,375,Burgers|Biryani|Pizza|Continental,0.35,0.23,Indiranagar
+U0129,Budget,278,Continental|Pizza,0.57,0.41,Whitefield
+U0130,Mid,592,Pizza|South Indian|Burgers|Biryani,0.38,0.45,Indiranagar
+U0131,Mid,465,Burgers|Continental,0.57,0.43,Hennur
+U0132,Budget,198,Asian|North Indian,0.53,0.38,Bellandur
+U0133,Premium,1052,South Indian|Burgers,0.45,0.48,Marathahalli
+U0134,Budget,171,South Indian|North Indian|Biryani|Burgers,0.44,0.22,Rajajinagar
+U0135,Budget,270,South Indian|Asian|Pizza|North Indian,0.41,0.26,Church Street
+U0136,Mid,372,Pizza|Burgers|Asian,0.58,0.47,Koramangala
+U0137,Budget,165,North Indian|Biryani|Continental|Burgers,0.51,0.44,Jayanagar
+U0138,Budget,219,Asian|Biryani|Burgers,0.67,0.47,Basavanagudi
+U0139,Premium,995,Biryani|North Indian|Continental|Asian,0.29,0.45,Bellandur
+U0140,Budget,267,South Indian|Pizza,0.62,0.41,Basavanagudi
+U0141,Budget,250,North Indian|Asian|Burgers|South Indian,0.7,0.21,MG Road
+U0142,Budget,165,Pizza|North Indian,0.65,0.46,Lavelle Road
+U0143,Budget,250,Pizza|Burgers|Asian,0.66,0.23,Lavelle Road
+U0144,Mid,593,North Indian|Continental|Pizza|South Indian,0.36,0.59,Whitefield
+U0145,Mid,597,North Indian|Burgers,0.52,0.52,MG Road
+U0146,Premium,1040,Burgers|Pizza,0.6,0.69,Bellandur
+U0147,Budget,292,North Indian|South Indian,0.61,0.42,Residency Road
+U0148,Mid,511,Asian|Burgers|North Indian|South Indian,0.68,0.32,Whitefield
+U0149,Budget,197,North Indian|Pizza|Burgers|South Indian,0.41,0.5,Lavelle Road
+U0150,Budget,156,South Indian|Pizza|Burgers,0.54,0.41,Church Street
+U0151,Mid,491,South Indian|Asian|Burgers,0.37,0.35,Lavelle Road
+U0152,Budget,153,Burgers|Asian,0.77,0.49,Whitefield
+U0153,Mid,333,Asian|Pizza|Continental,0.37,0.58,Malleswaram
+U0154,Premium,852,Burgers|Continental|North Indian|Asian,0.37,0.61,MG Road
+U0155,Mid,319,South Indian|Pizza,0.51,0.38,Electronic City
+U0156,Premium,640,Biryani|South Indian|North Indian|Continental,0.42,0.51,Electronic City
+U0157,Premium,892,Biryani|Burgers|Pizza|South Indian,0.38,0.47,Shivajinagar
+U0158,Premium,1062,Asian|Pizza,0.24,0.5,HSR Layout
+U0159,Budget,232,Burgers|South Indian|Continental|Biryani,0.58,0.25,Indiranagar
+U0160,Budget,191,Burgers|Continental,0.69,0.24,Marathahalli
+U0161,Budget,248,South Indian|Continental|Pizza|Burgers,0.69,0.49,Koramangala
+U0162,Mid,471,South Indian|Asian,0.53,0.46,Bellandur
+U0163,Mid,326,North Indian|Burgers|South Indian,0.47,0.32,Rajajinagar
+U0164,Premium,807,Continental|Asian,0.2,0.61,Church Street
+U0165,Mid,302,Pizza|Burgers,0.54,0.4,Church Street
+U0166,Mid,526,Pizza|North Indian,0.33,0.44,Whitefield
+U0167,Budget,187,Asian|Biryani,0.42,0.3,Basavanagudi
+U0168,Budget,172,South Indian|Burgers,0.42,0.33,Basavanagudi
+U0169,Mid,593,Burgers|Pizza|North Indian,0.61,0.27,Koramangala
+U0170,Budget,226,Asian|Continental,0.53,0.47,Jayanagar
+U0171,Budget,184,Pizza|Continental|Asian,0.45,0.46,Whitefield
+U0172,Mid,329,Pizza|Biryani|Continental|North Indian,0.34,0.49,Hennur
+U0173,Mid,462,North Indian|South Indian|Pizza|Continental,0.4,0.43,MG Road
+U0174,Mid,554,South Indian|Burgers|North Indian|Asian,0.5,0.27,Residency Road
+U0175,Budget,269,Asian|Pizza,0.65,0.24,Hennur
+U0176,Mid,470,Biryani|Burgers,0.44,0.52,Whitefield
+U0177,Mid,430,Pizza|North Indian|Biryani|Asian,0.62,0.32,Malleswaram
+U0178,Budget,295,South Indian|North Indian,0.65,0.21,Malleswaram
+U0179,Premium,1090,South Indian|Continental|Asian|Burgers,0.57,0.62,Malleswaram
+U0180,Mid,511,North Indian|Pizza|Asian|Biryani,0.67,0.22,Whitefield
+U0181,Mid,469,Biryani|South Indian|North Indian,0.62,0.56,Residency Road
+U0182,Budget,246,Pizza|Continental|South Indian|Biryani,0.65,0.45,Basavanagudi
+U0183,Mid,461,Continental|South Indian,0.58,0.31,Marathahalli
+U0184,Mid,454,North Indian|Biryani,0.39,0.32,Whitefield
+U0185,Premium,1054,South Indian|Asian|North Indian|Continental,0.4,0.62,MG Road
+U0186,Budget,233,Burgers|South Indian|Asian|Biryani,0.46,0.46,Shivajinagar
+U0187,Budget,283,Burgers|Pizza,0.45,0.29,Jayanagar
+U0188,Budget,161,North Indian|Biryani|Pizza|Asian,0.44,0.43,Whitefield
+U0189,Budget,199,Burgers|Biryani|North Indian,0.51,0.36,HSR Layout
+U0190,Budget,179,Biryani|South Indian|Pizza|North Indian,0.41,0.39,Malleswaram
+U0191,Budget,222,Pizza|North Indian|Asian,0.63,0.25,Shivajinagar
+U0192,Budget,157,Continental|Biryani,0.59,0.4,Jayanagar
+U0193,Mid,391,Asian|Burgers|Continental|North Indian,0.58,0.56,Basavanagudi
+U0194,Budget,200,Biryani|Continental|Pizza|South Indian,0.69,0.4,Jayanagar
+U0195,Premium,1079,Burgers|Continental|Asian|South Indian,0.24,0.42,Lavelle Road
+U0196,Budget,216,Burgers|North Indian|Asian|Continental,0.77,0.32,Church Street
+U0197,Budget,271,North Indian|Asian,0.45,0.34,HSR Layout
+U0198,Mid,507,Pizza|Burgers|Biryani,0.63,0.52,Basavanagudi
+U0199,Mid,505,Pizza|South Indian,0.54,0.3,Church Street
+U0200,Budget,237,Asian|Continental|Pizza,0.48,0.41,Malleswaram
+U0201,Mid,420,Burgers|Pizza|Continental|Biryani,0.37,0.47,Shivajinagar
+U0202,Budget,174,Biryani|Pizza|Asian,0.73,0.25,Electronic City
+U0203,Budget,165,Asian|Burgers|Biryani|South Indian,0.44,0.45,HSR Layout
+U0204,Mid,449,South Indian|Burgers,0.46,0.43,Malleswaram
+U0205,Budget,227,North Indian|Biryani|Pizza|Burgers,0.77,0.48,MG Road
+U0206,Mid,365,Biryani|Asian|Pizza|North Indian,0.64,0.22,Rajajinagar
+U0207,Premium,631,Burgers|North Indian|Continental,0.29,0.58,Electronic City
+U0208,Budget,289,South Indian|Pizza,0.48,0.25,Electronic City
+U0209,Premium,968,South Indian|Asian|Biryani|Pizza,0.54,0.36,Residency Road
+U0210,Budget,274,Biryani|South Indian,0.66,0.49,Hennur
+U0211,Premium,1035,Pizza|Continental|Burgers,0.45,0.48,Marathahalli
+U0212,Budget,258,South Indian|Burgers|Pizza|North Indian,0.64,0.37,Hennur
+U0213,Premium,1190,Continental|Burgers|North Indian|Biryani,0.35,0.69,Church Street
+U0214,Premium,681,Continental|Pizza|Biryani,0.26,0.59,MG Road
+U0215,Premium,690,Burgers|Biryani|Pizza|North Indian,0.3,0.55,Koramangala
+U0216,Premium,1147,Continental|Pizza|North Indian|Asian,0.51,0.49,Marathahalli
+U0217,Premium,901,Burgers|North Indian|Pizza|Asian,0.32,0.31,Koramangala
+U0218,Mid,596,Asian|Burgers|Pizza,0.37,0.22,Residency Road
+U0219,Budget,171,North Indian|South Indian|Pizza,0.45,0.22,Indiranagar
+U0220,Budget,215,Pizza|Burgers,0.41,0.23,HSR Layout
+U0221,Mid,489,South Indian|Continental|Asian|Biryani,0.62,0.3,Malleswaram
+U0222,Premium,748,Asian|Continental|Burgers,0.44,0.63,Lavelle Road
+U0223,Mid,385,Biryani|Burgers|North Indian,0.38,0.49,Rajajinagar
+U0224,Budget,268,Asian|Pizza|South Indian|Continental,0.56,0.29,Electronic City
+U0225,Mid,374,Asian|Continental|Burgers,0.51,0.37,Malleswaram
+U0226,Premium,642,Asian|Continental|Pizza,0.24,0.51,Indiranagar
+U0227,Budget,218,Continental|Asian|South Indian|Pizza,0.72,0.28,MG Road
+U0228,Budget,196,Asian|Biryani,0.53,0.2,Residency Road
+U0229,Mid,568,Burgers|North Indian,0.34,0.38,Indiranagar
+U0230,Budget,156,Burgers|South Indian|Pizza|Biryani,0.65,0.22,Rajajinagar
+U0231,Budget,183,Pizza|South Indian|Biryani|Burgers,0.55,0.43,Indiranagar
+U0232,Budget,169,Asian|Continental|North Indian,0.66,0.48,Indiranagar
+U0233,Budget,168,North Indian|Biryani|Asian,0.51,0.22,Indiranagar
+U0234,Budget,167,Continental|South Indian|Asian|Biryani,0.6,0.48,HSR Layout
+U0235,Mid,520,Burgers|North Indian|Biryani,0.39,0.46,Koramangala
+U0236,Budget,296,Continental|South Indian,0.69,0.43,Residency Road
+U0237,Premium,999,Pizza|Biryani|Asian,0.31,0.58,Church Street
+U0238,Mid,506,Pizza|South Indian,0.64,0.51,Residency Road
+U0239,Budget,273,North Indian|Burgers|Asian,0.45,0.36,Electronic City
+U0240,Budget,173,Biryani|Continental|North Indian,0.55,0.46,Whitefield
+U0241,Budget,160,Burgers|Continental|Biryani,0.79,0.4,Marathahalli
+U0242,Mid,524,Biryani|Burgers,0.59,0.26,Lavelle Road
+U0243,Mid,332,Pizza|Continental|Biryani,0.62,0.46,Koramangala
+U0244,Budget,236,South Indian|Burgers,0.72,0.21,MG Road
+U0245,Mid,574,Biryani|Burgers,0.36,0.43,HSR Layout
+U0246,Mid,309,South Indian|Burgers,0.49,0.57,HSR Layout
+U0247,Budget,162,Continental|Pizza,0.76,0.45,Bellandur
+U0248,Premium,665,Pizza|Asian|South Indian,0.53,0.34,Jayanagar
+U0249,Premium,1036,Burgers|Continental|North Indian|Biryani,0.33,0.63,HSR Layout
+U0250,Budget,204,Biryani|Asian|North Indian,0.71,0.38,HSR Layout
+U0251,Mid,386,South Indian|Pizza|Biryani,0.58,0.42,HSR Layout
+U0252,Budget,246,Biryani|Asian|Burgers,0.71,0.2,Bellandur
+U0253,Premium,890,Burgers|South Indian|Asian,0.37,0.62,HSR Layout
+U0254,Mid,567,Pizza|Burgers,0.48,0.3,Koramangala
+U0255,Mid,555,North Indian|Continental|Biryani,0.54,0.24,Lavelle Road
+U0256,Budget,285,Pizza|South Indian|Continental|Burgers,0.79,0.39,Indiranagar
+U0257,Budget,178,Continental|South Indian|Burgers,0.72,0.41,Koramangala
+U0258,Budget,243,Pizza|Continental|Biryani,0.51,0.33,Rajajinagar
+U0259,Mid,575,Pizza|Biryani|Burgers,0.37,0.51,Lavelle Road
+U0260,Mid,596,North Indian|South Indian|Biryani|Asian,0.43,0.28,Lavelle Road
+U0261,Budget,255,Biryani|Continental,0.75,0.31,Church Street
+U0262,Budget,261,South Indian|Continental|North Indian,0.46,0.48,HSR Layout
+U0263,Mid,399,North Indian|South Indian,0.55,0.59,Koramangala
+U0264,Mid,330,Continental|Asian|South Indian,0.41,0.24,Malleswaram
+U0265,Budget,225,Pizza|South Indian|Asian|Burgers,0.64,0.44,Jayanagar
+U0266,Mid,567,Continental|Asian|North Indian|Biryani,0.5,0.6,Hennur
+U0267,Mid,426,Pizza|South Indian,0.4,0.37,Residency Road
+U0268,Mid,322,Biryani|Continental|Pizza|Burgers,0.32,0.39,Church Street
+U0269,Premium,700,Asian|Biryani|Continental|South Indian,0.38,0.4,HSR Layout
+U0270,Budget,211,Burgers|North Indian|South Indian,0.66,0.23,Shivajinagar
+U0271,Premium,1197,Asian|Burgers,0.21,0.48,Electronic City
+U0272,Budget,244,Asian|Burgers,0.65,0.41,Jayanagar
+U0273,Budget,235,Burgers|Pizza|Asian,0.61,0.29,Whitefield
+U0274,Mid,341,Pizza|Burgers,0.55,0.33,Marathahalli
+U0275,Premium,713,North Indian|Asian,0.35,0.49,Bellandur
+U0276,Mid,334,North Indian|South Indian,0.52,0.51,Rajajinagar
+U0277,Mid,597,Asian|South Indian|North Indian|Pizza,0.65,0.48,Indiranagar
+U0278,Mid,516,Continental|Asian|Pizza,0.41,0.23,MG Road
+U0279,Premium,1081,North Indian|Continental|Pizza|Asian,0.48,0.57,Jayanagar
+U0280,Budget,267,North Indian|Biryani,0.43,0.32,Rajajinagar
+U0281,Budget,178,Pizza|Burgers,0.68,0.35,Residency Road
+U0282,Budget,288,Continental|Burgers|Biryani,0.77,0.34,Basavanagudi
+U0283,Budget,155,Burgers|North Indian|Continental|Asian,0.75,0.27,Malleswaram
+U0284,Mid,571,Pizza|South Indian|North Indian,0.64,0.38,Bellandur
+U0285,Mid,416,South Indian|North Indian,0.49,0.59,Basavanagudi
+U0286,Mid,385,North Indian|South Indian|Burgers|Pizza,0.55,0.26,Bellandur
+U0287,Budget,160,North Indian|Asian|South Indian,0.8,0.37,Whitefield
+U0288,Mid,317,North Indian|Continental,0.57,0.59,Bellandur
+U0289,Mid,362,Asian|South Indian|Continental,0.67,0.36,Malleswaram
+U0290,Budget,289,North Indian|Continental|Asian|South Indian,0.79,0.3,Shivajinagar
+U0291,Budget,178,Burgers|Pizza,0.69,0.47,Rajajinagar
+U0292,Budget,252,Biryani|North Indian|Asian,0.65,0.27,Whitefield
+U0293,Mid,413,Biryani|Asian,0.61,0.51,Shivajinagar
+U0294,Mid,344,North Indian|Pizza|Burgers,0.69,0.36,MG Road
+U0295,Premium,969,North Indian|Continental|Asian,0.36,0.59,Residency Road
+U0296,Budget,239,Biryani|South Indian|Continental|Pizza,0.52,0.33,Shivajinagar
+U0297,Budget,258,Pizza|Biryani|South Indian|Asian,0.69,0.32,Basavanagudi
+U0298,Mid,568,Asian|Continental|Biryani|Pizza,0.69,0.23,Hennur
+U0299,Mid,439,Pizza|South Indian|Burgers|Asian,0.47,0.42,Electronic City
+U0300,Budget,275,North Indian|Continental|Pizza|Burgers,0.42,0.45,Lavelle Road

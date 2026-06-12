@@ -1,0 +1,641 @@
+item_id,restaurant_id,item_name,item_category,price_inr,is_veg,taste_vector,global_popularity
+I0001,R001,Masala Dosa,Main,92,Y,"0.21,0.13,0.45,0.6",0.87
+I0002,R001,Rava Idli,Main,87,Y,"0.02,0.0,0.33,0.17",0.6
+I0003,R001,Bisi Bele Bath,Main,106,Y,"0.43,0.14,0.54,0.11",0.75
+I0004,R001,Medu Vada,Main,67,Y,"0.25,0.0,0.38,0.2",0.75
+I0005,R001,Uttapam,Main,97,Y,"0.14,0.0,0.35,0.21",0.85
+I0006,R001,Coconut Chutney,Side,35,Y,"0.0,0.05,0.14,0.19",0.88
+I0007,R001,Sambar,Side,25,Y,"0.24,0.0,0.48,0.33",0.48
+I0008,R001,Ghee,Side,15,Y,"0.0,0.21,0.05,0.02",0.89
+I0009,R001,Tomato Chutney,Side,22,Y,"0.07,0.1,0.23,0.5",0.82
+I0010,R001,Filter Coffee,Drink,57,Y,"0.0,0.33,0.16,0.0",0.43
+I0011,R001,Buttermilk,Drink,32,Y,"0.02,0.0,0.15,0.41",0.92
+I0012,R001,Lassi,Drink,71,Y,"0.04,0.44,0.11,0.05",0.75
+I0013,R001,Onion Pakoda,Starter,73,Y,"0.26,0.0,0.2,0.24",0.8
+I0014,R001,Mysore Bonda,Starter,76,Y,"0.25,0.1,0.22,0.13",0.86
+I0015,R001,Mysore Pak,Dessert,66,Y,"0.02,0.83,0.15,0.01",0.83
+I0016,R001,Kesari Bath,Dessert,56,Y,"0.08,0.82,0.1,0.02",0.6
+I0017,R002,Chicken Biryani,Main,236,N,"0.86,0.0,0.45,0.21",0.44
+I0018,R002,Mutton Biryani,Main,293,N,"0.8,0.0,0.55,0.15",0.47
+I0019,R002,Veg Biryani,Main,185,Y,"0.59,0.0,0.41,0.22",0.93
+I0020,R002,Prawn Biryani,Main,339,N,"0.71,0.05,0.44,0.26",0.95
+I0021,R002,Egg Biryani,Main,210,N,"0.57,0.08,0.39,0.15",0.44
+I0022,R002,Raita,Side,30,Y,"0.02,0.05,0.14,0.21",0.75
+I0023,R002,Mirchi Ka Salan,Side,47,Y,"0.61,0.0,0.27,0.4",0.55
+I0024,R002,Brinjal Curry,Side,65,Y,"0.44,0.0,0.49,0.31",0.66
+I0025,R002,Lime Soda,Drink,65,Y,"0.0,0.08,0.02,0.73",0.59
+I0026,R002,Lassi,Drink,73,Y,"0.0,0.45,0.13,0.2",0.45
+I0027,R002,Pepsi,Drink,42,Y,"0.05,0.56,0.02,0.14",0.69
+I0028,R002,Chicken 65,Starter,174,N,"0.88,0.0,0.35,0.28",0.64
+I0029,R002,Seekh Kebab,Starter,217,N,"0.77,0.0,0.53,0.11",0.41
+I0030,R002,Veg Shami Kebab,Starter,142,Y,"0.59,0.07,0.33,0.1",0.52
+I0031,R002,Kheer,Dessert,82,Y,"0.08,0.83,0.0,0.0",0.91
+I0032,R002,Gulab Jamun,Dessert,85,Y,"0.0,0.98,0.19,0.1",0.71
+I0033,R003,Margherita Pizza,Main,262,Y,"0.1,0.14,0.44,0.21",0.8
+I0034,R003,Pepperoni Pizza,Main,311,N,"0.35,0.01,0.62,0.2",0.87
+I0035,R003,BBQ Chicken Pizza,Main,345,N,"0.21,0.3,0.57,0.01",0.44
+I0036,R003,Farmhouse Pizza,Main,307,Y,"0.15,0.02,0.48,0.15",0.73
+I0037,R003,Paneer Tikka Pizza,Main,309,Y,"0.52,0.13,0.41,0.16",0.54
+I0038,R003,Garlic Bread,Side,131,Y,"0.14,0.0,0.38,0.03",0.56
+I0039,R003,Stuffed Garlic Bread,Side,160,Y,"0.19,0.09,0.4,0.02",0.71
+I0040,R003,Coleslaw,Side,73,Y,"0.0,0.14,0.15,0.39",0.88
+I0041,R003,Pepsi,Drink,78,Y,"0.0,0.46,0.09,0.21",0.57
+I0042,R003,Mountain Dew,Drink,75,Y,"0.03,0.4,0.06,0.36",0.76
+I0043,R003,Lemonade,Drink,100,Y,"0.08,0.15,0.08,0.85",0.49
+I0044,R003,Pasta Arrabiata,Starter,179,Y,"0.62,0.04,0.24,0.43",0.55
+I0045,R003,Chicken Wings,Starter,225,N,"0.65,0.18,0.31,0.23",0.86
+I0046,R003,Choco Lava Cake,Dessert,141,Y,"0.0,1.0,0.13,0.0",0.81
+I0047,R003,Tiramisu,Dessert,187,Y,"0.04,0.81,0.02,0.09",0.78
+I0048,R004,Classic Burger,Main,174,N,"0.21,0.17,0.42,0.03",0.47
+I0049,R004,Spicy Chicken Burger,Main,199,N,"0.67,0.19,0.49,0.11",0.6
+I0050,R004,Veg Burger,Main,161,Y,"0.15,0.02,0.36,0.18",0.62
+I0051,R004,Double Patty Burger,Main,259,N,"0.35,0.19,0.45,0.03",0.84
+I0052,R004,Zinger Burger,Main,215,N,"0.68,0.0,0.45,0.17",0.91
+I0053,R004,French Fries,Side,115,Y,"0.13,0.05,0.55,0.0",0.79
+I0054,R004,Onion Rings,Side,122,Y,"0.17,0.07,0.44,0.06",0.65
+I0055,R004,Coleslaw,Side,69,Y,"0.06,0.27,0.14,0.33",0.62
+I0056,R004,Peri Peri Fries,Side,118,Y,"0.67,0.09,0.46,0.23",0.62
+I0057,R004,Coca Cola,Drink,76,Y,"0.01,0.59,0.02,0.29",0.5
+I0058,R004,Oreo Shake,Drink,170,Y,"0.1,0.81,0.12,0.0",0.83
+I0059,R004,Vanilla Shake,Drink,143,Y,"0.02,0.8,0.08,0.02",0.54
+I0060,R004,Chicken Popcorn,Starter,172,N,"0.39,0.0,0.56,0.14",0.92
+I0061,R004,Mozzarella Sticks,Starter,193,Y,"0.13,0.07,0.41,0.03",0.58
+I0062,R004,Soft Serve,Dessert,80,Y,"0.03,0.72,0.08,0.0",0.77
+I0063,R004,Brownie Sundae,Dessert,150,Y,"0.0,0.96,0.03,0.0",0.92
+I0064,R005,Grilled Chicken,Main,331,N,"0.25,0.0,0.41,0.08",0.86
+I0065,R005,Pasta Aglio e Olio,Main,279,Y,"0.16,0.0,0.32,0.03",0.66
+I0066,R005,Fish & Chips,Main,354,N,"0.24,0.0,0.56,0.19",0.8
+I0067,R005,Risotto,Main,311,Y,"0.02,0.0,0.43,0.0",0.85
+I0068,R005,Club Sandwich,Main,264,N,"0.05,0.0,0.46,0.03",0.43
+I0069,R005,Caesar Salad,Side,185,Y,"0.02,0.05,0.29,0.28",0.72
+I0070,R005,Soup of the Day,Side,162,Y,"0.14,0.0,0.25,0.13",0.4
+I0071,R005,Dinner Roll,Side,74,Y,"0.07,0.18,0.26,0.0",0.84
+I0072,R005,Fresh Lime Soda,Drink,92,Y,"0.0,0.0,0.0,0.97",0.65
+I0073,R005,Iced Tea,Drink,105,Y,"0.0,0.21,0.01,0.26",0.82
+I0074,R005,Cold Coffee,Drink,134,Y,"0.02,0.44,0.1,0.07",0.7
+I0075,R005,Bruschetta,Starter,198,Y,"0.03,0.07,0.29,0.35",0.86
+I0076,R005,Chicken Quesadilla,Starter,218,N,"0.35,0.0,0.43,0.15",0.44
+I0077,R005,Cheesecake,Dessert,199,Y,"0.0,0.77,0.18,0.12",0.48
+I0078,R005,Panna Cotta,Dessert,182,Y,"0.04,0.74,0.0,0.08",0.7
+I0079,R006,Classic Burger,Main,183,N,"0.11,0.17,0.38,0.15",0.92
+I0080,R006,Spicy Chicken Burger,Main,190,N,"0.77,0.15,0.38,0.1",0.59
+I0081,R006,Veg Burger,Main,164,Y,"0.18,0.18,0.37,0.11",0.8
+I0082,R006,Double Patty Burger,Main,265,N,"0.32,0.04,0.44,0.09",0.42
+I0083,R006,Zinger Burger,Main,220,N,"0.63,0.16,0.44,0.27",0.91
+I0084,R006,French Fries,Side,109,Y,"0.11,0.08,0.62,0.03",0.45
+I0085,R006,Onion Rings,Side,123,Y,"0.03,0.0,0.41,0.0",0.52
+I0086,R006,Coleslaw,Side,70,Y,"0.0,0.28,0.16,0.39",0.63
+I0087,R006,Peri Peri Fries,Side,136,Y,"0.52,0.0,0.51,0.3",0.59
+I0088,R006,Coca Cola,Drink,70,Y,"0.0,0.59,0.01,0.11",0.54
+I0089,R006,Oreo Shake,Drink,166,Y,"0.0,0.83,0.03,0.03",0.71
+I0090,R006,Vanilla Shake,Drink,136,Y,"0.0,0.75,0.07,0.02",0.93
+I0091,R006,Chicken Popcorn,Starter,172,N,"0.32,0.06,0.59,0.02",0.41
+I0092,R006,Mozzarella Sticks,Starter,179,Y,"0.12,0.18,0.48,0.09",0.51
+I0093,R006,Soft Serve,Dessert,88,Y,"0.04,0.83,0.0,0.05",0.87
+I0094,R006,Brownie Sundae,Dessert,159,Y,"0.06,1.0,0.11,0.0",0.69
+I0095,R007,Margherita Pizza,Main,261,Y,"0.07,0.2,0.47,0.37",0.85
+I0096,R007,Pepperoni Pizza,Main,313,N,"0.29,0.07,0.68,0.19",0.48
+I0097,R007,BBQ Chicken Pizza,Main,345,N,"0.35,0.39,0.45,0.16",0.7
+I0098,R007,Farmhouse Pizza,Main,295,Y,"0.19,0.17,0.42,0.16",0.54
+I0099,R007,Paneer Tikka Pizza,Main,319,Y,"0.52,0.18,0.35,0.19",0.74
+I0100,R007,Garlic Bread,Side,122,Y,"0.07,0.0,0.37,0.0",0.6
+I0101,R007,Stuffed Garlic Bread,Side,158,Y,"0.07,0.08,0.54,0.0",0.41
+I0102,R007,Coleslaw,Side,100,Y,"0.0,0.15,0.18,0.31",0.53
+I0103,R007,Pepsi,Drink,65,Y,"0.03,0.5,0.16,0.12",0.52
+I0104,R007,Mountain Dew,Drink,72,Y,"0.0,0.53,0.0,0.41",0.59
+I0105,R007,Lemonade,Drink,93,Y,"0.01,0.17,0.0,0.76",0.53
+I0106,R007,Pasta Arrabiata,Starter,193,Y,"0.54,0.0,0.31,0.45",0.5
+I0107,R007,Chicken Wings,Starter,216,N,"0.75,0.06,0.42,0.25",0.73
+I0108,R007,Choco Lava Cake,Dessert,143,Y,"0.07,0.96,0.07,0.0",0.79
+I0109,R007,Tiramisu,Dessert,174,Y,"0.0,0.89,0.11,0.04",0.47
+I0110,R008,Grilled Chicken,Main,337,N,"0.25,0.0,0.3,0.06",0.66
+I0111,R008,Pasta Aglio e Olio,Main,280,Y,"0.14,0.0,0.39,0.0",0.85
+I0112,R008,Fish & Chips,Main,352,N,"0.2,0.02,0.54,0.03",0.85
+I0113,R008,Risotto,Main,320,Y,"0.06,0.1,0.32,0.05",0.73
+I0114,R008,Club Sandwich,Main,265,N,"0.12,0.06,0.38,0.18",0.56
+I0115,R008,Caesar Salad,Side,188,Y,"0.1,0.0,0.32,0.22",0.81
+I0116,R008,Soup of the Day,Side,170,Y,"0.15,0.03,0.25,0.02",0.53
+I0117,R008,Dinner Roll,Side,67,Y,"0.0,0.0,0.19,0.02",0.56
+I0118,R008,Fresh Lime Soda,Drink,77,Y,"0.0,0.0,0.07,0.81",0.53
+I0119,R008,Iced Tea,Drink,88,Y,"0.06,0.23,0.03,0.39",0.63
+I0120,R008,Cold Coffee,Drink,137,Y,"0.0,0.33,0.05,0.0",0.43
+I0121,R008,Bruschetta,Starter,195,Y,"0.06,0.05,0.31,0.26",0.47
+I0122,R008,Chicken Quesadilla,Starter,232,N,"0.26,0.0,0.35,0.21",0.64
+I0123,R008,Cheesecake,Dessert,209,Y,"0.0,0.79,0.06,0.15",0.45
+I0124,R008,Panna Cotta,Dessert,200,Y,"0.03,0.77,0.02,0.0",0.82
+I0125,R009,Grilled Chicken,Main,336,N,"0.15,0.0,0.45,0.09",0.76
+I0126,R009,Pasta Aglio e Olio,Main,299,Y,"0.16,0.1,0.29,0.06",0.93
+I0127,R009,Fish & Chips,Main,355,N,"0.17,0.0,0.53,0.17",0.58
+I0128,R009,Risotto,Main,312,Y,"0.1,0.03,0.38,0.05",0.42
+I0129,R009,Club Sandwich,Main,242,N,"0.06,0.0,0.49,0.08",0.68
+I0130,R009,Caesar Salad,Side,170,Y,"0.03,0.01,0.28,0.14",0.6
+I0131,R009,Soup of the Day,Side,164,Y,"0.1,0.0,0.21,0.05",0.47
+I0132,R009,Dinner Roll,Side,59,Y,"0.0,0.14,0.12,0.09",0.73
+I0133,R009,Fresh Lime Soda,Drink,77,Y,"0.04,0.0,0.0,0.88",0.52
+I0134,R009,Iced Tea,Drink,106,Y,"0.08,0.19,0.0,0.37",0.67
+I0135,R009,Cold Coffee,Drink,142,Y,"0.0,0.44,0.08,0.0",0.66
+I0136,R009,Bruschetta,Starter,184,Y,"0.11,0.0,0.38,0.3",0.88
+I0137,R009,Chicken Quesadilla,Starter,237,N,"0.21,0.05,0.47,0.17",0.83
+I0138,R009,Cheesecake,Dessert,198,Y,"0.06,0.76,0.06,0.22",0.95
+I0139,R009,Panna Cotta,Dessert,185,Y,"0.07,0.69,0.0,0.07",0.82
+I0140,R010,Chicken Biryani,Main,222,N,"0.79,0.0,0.44,0.24",0.71
+I0141,R010,Mutton Biryani,Main,277,N,"0.87,0.0,0.46,0.09",0.9
+I0142,R010,Veg Biryani,Main,182,Y,"0.48,0.03,0.46,0.3",0.67
+I0143,R010,Prawn Biryani,Main,311,N,"0.63,0.09,0.47,0.22",0.86
+I0144,R010,Egg Biryani,Main,193,N,"0.61,0.0,0.44,0.18",0.76
+I0145,R010,Raita,Side,34,Y,"0.0,0.16,0.15,0.32",0.62
+I0146,R010,Mirchi Ka Salan,Side,42,Y,"0.77,0.07,0.37,0.38",0.57
+I0147,R010,Brinjal Curry,Side,72,Y,"0.58,0.0,0.41,0.32",0.53
+I0148,R010,Lime Soda,Drink,61,Y,"0.08,0.2,0.15,0.69",0.45
+I0149,R010,Lassi,Drink,80,Y,"0.04,0.32,0.03,0.06",0.42
+I0150,R010,Pepsi,Drink,40,Y,"0.06,0.46,0.07,0.13",0.69
+I0151,R010,Chicken 65,Starter,188,N,"0.94,0.0,0.34,0.22",0.61
+I0152,R010,Seekh Kebab,Starter,211,N,"0.65,0.08,0.43,0.09",0.54
+I0153,R010,Veg Shami Kebab,Starter,148,Y,"0.53,0.08,0.39,0.06",0.7
+I0154,R010,Kheer,Dessert,72,Y,"0.0,0.87,0.02,0.03",0.63
+I0155,R010,Gulab Jamun,Dessert,68,Y,"0.0,0.96,0.2,0.07",0.46
+I0156,R011,Masala Dosa,Main,82,Y,"0.31,0.11,0.5,0.46",0.94
+I0157,R011,Rava Idli,Main,81,Y,"0.08,0.0,0.37,0.26",0.94
+I0158,R011,Bisi Bele Bath,Main,129,Y,"0.42,0.1,0.58,0.16",0.84
+I0159,R011,Medu Vada,Main,69,Y,"0.26,0.0,0.34,0.05",0.82
+I0160,R011,Uttapam,Main,104,Y,"0.23,0.07,0.33,0.38",0.76
+I0161,R011,Coconut Chutney,Side,19,Y,"0.06,0.01,0.17,0.03",0.9
+I0162,R011,Sambar,Side,25,Y,"0.35,0.0,0.33,0.31",0.93
+I0163,R011,Ghee,Side,21,Y,"0.0,0.15,0.03,0.08",0.92
+I0164,R011,Tomato Chutney,Side,40,Y,"0.16,0.05,0.27,0.42",0.93
+I0165,R011,Filter Coffee,Drink,34,Y,"0.05,0.25,0.14,0.03",0.62
+I0166,R011,Buttermilk,Drink,47,Y,"0.06,0.0,0.26,0.3",0.7
+I0167,R011,Lassi,Drink,64,Y,"0.0,0.45,0.05,0.08",0.75
+I0168,R011,Onion Pakoda,Starter,81,Y,"0.22,0.0,0.21,0.28",0.71
+I0169,R011,Mysore Bonda,Starter,89,Y,"0.22,0.13,0.33,0.09",0.79
+I0170,R011,Mysore Pak,Dessert,70,Y,"0.0,0.83,0.19,0.0",0.67
+I0171,R011,Kesari Bath,Dessert,43,Y,"0.0,0.81,0.08,0.07",0.92
+I0172,R012,Masala Dosa,Main,92,Y,"0.39,0.08,0.45,0.43",0.63
+I0173,R012,Rava Idli,Main,63,Y,"0.17,0.02,0.39,0.16",0.78
+I0174,R012,Bisi Bele Bath,Main,106,Y,"0.39,0.19,0.57,0.12",0.78
+I0175,R012,Medu Vada,Main,67,Y,"0.28,0.03,0.31,0.06",0.93
+I0176,R012,Uttapam,Main,110,Y,"0.27,0.0,0.33,0.33",0.73
+I0177,R012,Coconut Chutney,Side,15,Y,"0.0,0.07,0.3,0.16",0.51
+I0178,R012,Sambar,Side,41,Y,"0.35,0.0,0.34,0.37",0.58
+I0179,R012,Ghee,Side,15,Y,"0.06,0.22,0.06,0.1",0.94
+I0180,R012,Tomato Chutney,Side,27,Y,"0.05,0.0,0.33,0.41",0.41
+I0181,R012,Filter Coffee,Drink,55,Y,"0.06,0.32,0.0,0.0",0.47
+I0182,R012,Buttermilk,Drink,33,Y,"0.01,0.05,0.2,0.46",0.68
+I0183,R012,Lassi,Drink,53,Y,"0.0,0.34,0.12,0.15",0.9
+I0184,R012,Onion Pakoda,Starter,91,Y,"0.3,0.0,0.39,0.11",0.66
+I0185,R012,Mysore Bonda,Starter,72,Y,"0.19,0.02,0.34,0.09",0.89
+I0186,R012,Mysore Pak,Dessert,60,Y,"0.02,0.81,0.06,0.03",0.7
+I0187,R012,Kesari Bath,Dessert,50,Y,"0.0,0.82,0.06,0.1",0.64
+I0188,R013,Classic Burger,Main,195,N,"0.24,0.17,0.43,0.15",0.8
+I0189,R013,Spicy Chicken Burger,Main,196,N,"0.69,0.18,0.38,0.27",0.62
+I0190,R013,Veg Burger,Main,163,Y,"0.12,0.09,0.33,0.07",0.48
+I0191,R013,Double Patty Burger,Main,269,N,"0.29,0.02,0.42,0.09",0.81
+I0192,R013,Zinger Burger,Main,221,N,"0.66,0.11,0.42,0.21",0.58
+I0193,R013,French Fries,Side,93,Y,"0.08,0.07,0.69,0.0",0.9
+I0194,R013,Onion Rings,Side,111,Y,"0.19,0.02,0.47,0.02",0.52
+I0195,R013,Coleslaw,Side,81,Y,"0.0,0.27,0.17,0.31",0.46
+I0196,R013,Peri Peri Fries,Side,118,Y,"0.61,0.06,0.57,0.29",0.85
+I0197,R013,Coca Cola,Drink,69,Y,"0.03,0.51,0.12,0.23",0.78
+I0198,R013,Oreo Shake,Drink,140,Y,"0.0,0.94,0.06,0.0",0.4
+I0199,R013,Vanilla Shake,Drink,157,Y,"0.0,0.83,0.01,0.05",0.93
+I0200,R013,Chicken Popcorn,Starter,152,N,"0.45,0.0,0.48,0.07",0.6
+I0201,R013,Mozzarella Sticks,Starter,193,Y,"0.06,0.19,0.52,0.08",0.49
+I0202,R013,Soft Serve,Dessert,94,Y,"0.02,0.83,0.0,0.03",0.67
+I0203,R013,Brownie Sundae,Dessert,154,Y,"0.0,0.94,0.1,0.0",0.46
+I0204,R014,Grilled Chicken,Main,331,N,"0.24,0.0,0.43,0.01",0.62
+I0205,R014,Pasta Aglio e Olio,Main,289,Y,"0.11,0.0,0.39,0.05",0.82
+I0206,R014,Fish & Chips,Main,349,N,"0.17,0.0,0.55,0.04",0.61
+I0207,R014,Risotto,Main,312,Y,"0.05,0.01,0.43,0.0",0.62
+I0208,R014,Club Sandwich,Main,263,N,"0.01,0.0,0.48,0.17",0.72
+I0209,R014,Caesar Salad,Side,188,Y,"0.0,0.03,0.26,0.18",0.93
+I0210,R014,Soup of the Day,Side,145,Y,"0.16,0.02,0.37,0.18",0.45
+I0211,R014,Dinner Roll,Side,77,Y,"0.0,0.09,0.18,0.0",0.88
+I0212,R014,Fresh Lime Soda,Drink,93,Y,"0.0,0.0,0.0,0.9",0.46
+I0213,R014,Iced Tea,Drink,96,Y,"0.0,0.26,0.0,0.39",0.75
+I0214,R014,Cold Coffee,Drink,124,Y,"0.0,0.33,0.04,0.02",0.82
+I0215,R014,Bruschetta,Starter,190,Y,"0.02,0.09,0.33,0.29",0.71
+I0216,R014,Chicken Quesadilla,Starter,228,N,"0.29,0.08,0.41,0.23",0.74
+I0217,R014,Cheesecake,Dessert,217,Y,"0.09,0.76,0.09,0.19",0.75
+I0218,R014,Panna Cotta,Dessert,195,Y,"0.0,0.61,0.0,0.06",0.65
+I0219,R015,Grilled Chicken,Main,311,N,"0.17,0.0,0.43,0.2",0.45
+I0220,R015,Pasta Aglio e Olio,Main,289,Y,"0.2,0.0,0.31,0.06",0.89
+I0221,R015,Fish & Chips,Main,354,N,"0.28,0.01,0.44,0.12",0.68
+I0222,R015,Risotto,Main,320,Y,"0.01,0.0,0.48,0.0",0.79
+I0223,R015,Club Sandwich,Main,256,N,"0.13,0.0,0.44,0.2",0.69
+I0224,R015,Caesar Salad,Side,189,Y,"0.0,0.0,0.26,0.18",0.59
+I0225,R015,Soup of the Day,Side,159,Y,"0.01,0.03,0.27,0.07",0.71
+I0226,R015,Dinner Roll,Side,62,Y,"0.0,0.14,0.23,0.08",0.88
+I0227,R015,Fresh Lime Soda,Drink,80,Y,"0.0,0.03,0.08,0.86",0.76
+I0228,R015,Iced Tea,Drink,101,Y,"0.0,0.22,0.09,0.26",0.61
+I0229,R015,Cold Coffee,Drink,145,Y,"0.0,0.33,0.14,0.09",0.95
+I0230,R015,Bruschetta,Starter,199,Y,"0.11,0.03,0.28,0.27",0.6
+I0231,R015,Chicken Quesadilla,Starter,215,N,"0.39,0.0,0.45,0.14",0.95
+I0232,R015,Cheesecake,Dessert,194,Y,"0.0,0.87,0.02,0.25",0.86
+I0233,R015,Panna Cotta,Dessert,198,Y,"0.01,0.73,0.08,0.12",0.73
+I0234,R016,Chicken Biryani,Main,214,N,"0.73,0.07,0.55,0.26",0.49
+I0235,R016,Mutton Biryani,Main,284,N,"0.71,0.0,0.54,0.19",0.74
+I0236,R016,Veg Biryani,Main,194,Y,"0.55,0.0,0.41,0.16",0.84
+I0237,R016,Prawn Biryani,Main,325,N,"0.78,0.0,0.54,0.31",0.64
+I0238,R016,Egg Biryani,Main,214,N,"0.56,0.0,0.41,0.29",0.85
+I0239,R016,Raita,Side,55,Y,"0.02,0.17,0.11,0.3",0.6
+I0240,R016,Mirchi Ka Salan,Side,69,Y,"0.62,0.07,0.37,0.36",0.82
+I0241,R016,Brinjal Curry,Side,58,Y,"0.49,0.0,0.47,0.22",0.9
+I0242,R016,Lime Soda,Drink,66,Y,"0.0,0.07,0.01,0.61",0.68
+I0243,R016,Lassi,Drink,67,Y,"0.0,0.32,0.04,0.06",0.45
+I0244,R016,Pepsi,Drink,52,Y,"0.03,0.56,0.03,0.16",0.86
+I0245,R016,Chicken 65,Starter,192,N,"0.97,0.05,0.39,0.22",0.9
+I0246,R016,Seekh Kebab,Starter,190,N,"0.65,0.07,0.51,0.15",0.69
+I0247,R016,Veg Shami Kebab,Starter,143,Y,"0.56,0.0,0.32,0.05",0.75
+I0248,R016,Kheer,Dessert,89,Y,"0.0,0.82,0.08,0.02",0.41
+I0249,R016,Gulab Jamun,Dessert,76,Y,"0.02,1.0,0.06,0.0",0.59
+I0250,R017,Grilled Chicken,Main,328,N,"0.18,0.03,0.32,0.19",0.44
+I0251,R017,Pasta Aglio e Olio,Main,286,Y,"0.21,0.06,0.3,0.0",0.88
+I0252,R017,Fish & Chips,Main,341,N,"0.23,0.1,0.45,0.0",0.83
+I0253,R017,Risotto,Main,301,Y,"0.05,0.03,0.32,0.02",0.82
+I0254,R017,Club Sandwich,Main,244,N,"0.01,0.01,0.46,0.04",0.83
+I0255,R017,Caesar Salad,Side,184,Y,"0.1,0.0,0.24,0.13",0.79
+I0256,R017,Soup of the Day,Side,170,Y,"0.09,0.0,0.21,0.04",0.42
+I0257,R017,Dinner Roll,Side,79,Y,"0.0,0.08,0.26,0.0",0.42
+I0258,R017,Fresh Lime Soda,Drink,90,Y,"0.0,0.0,0.06,0.97",0.58
+I0259,R017,Iced Tea,Drink,83,Y,"0.06,0.19,0.0,0.29",0.93
+I0260,R017,Cold Coffee,Drink,130,Y,"0.09,0.4,0.1,0.08",0.69
+I0261,R017,Bruschetta,Starter,195,Y,"0.02,0.0,0.29,0.4",0.5
+I0262,R017,Chicken Quesadilla,Starter,219,N,"0.26,0.0,0.43,0.16",0.73
+I0263,R017,Cheesecake,Dessert,203,Y,"0.0,0.79,0.09,0.25",0.9
+I0264,R017,Panna Cotta,Dessert,189,Y,"0.1,0.65,0.1,0.19",0.44
+I0265,R018,Butter Chicken,Main,290,N,"0.38,0.2,0.45,0.03",0.42
+I0266,R018,Dal Makhani,Main,237,Y,"0.22,0.16,0.31,0.01",0.83
+I0267,R018,Paneer Butter Masala,Main,261,Y,"0.27,0.29,0.31,0.03",0.65
+I0268,R018,Chicken Tikka Masala,Main,301,N,"0.47,0.15,0.41,0.21",0.62
+I0269,R018,Palak Paneer,Main,250,Y,"0.16,0.09,0.31,0.04",0.68
+I0270,R018,Mutton Rogan Josh,Main,369,N,"0.61,0.0,0.45,0.09",0.95
+I0271,R018,Butter Naan,Side,49,Y,"0.04,0.2,0.24,0.0",0.44
+I0272,R018,Garlic Naan,Side,55,Y,"0.08,0.0,0.32,0.04",0.87
+I0273,R018,Jeera Rice,Side,80,Y,"0.13,0.04,0.31,0.0",0.56
+I0274,R018,Tandoori Roti,Side,35,Y,"0.04,0.09,0.23,0.06",0.68
+I0275,R018,Laccha Paratha,Side,53,Y,"0.1,0.06,0.25,0.0",0.6
+I0276,R018,Mango Lassi,Drink,98,Y,"0.0,0.56,0.11,0.12",0.45
+I0277,R018,Sweet Lassi,Drink,79,Y,"0.0,0.64,0.1,0.0",0.63
+I0278,R018,Masala Chai,Drink,58,Y,"0.01,0.39,0.13,0.0",0.77
+I0279,R018,Paneer Tikka,Starter,221,Y,"0.43,0.07,0.41,0.22",0.82
+I0280,R018,Chicken Tikka,Starter,254,N,"0.49,0.08,0.31,0.02",0.48
+I0281,R018,Tandoori Prawn,Starter,315,N,"0.43,0.09,0.35,0.29",0.69
+I0282,R018,Samosa,Starter,59,Y,"0.37,0.0,0.33,0.21",0.47
+I0283,R018,Gulab Jamun,Dessert,79,Y,"0.02,0.92,0.13,0.02",0.72
+I0284,R018,Rasmalai,Dessert,95,Y,"0.03,0.94,0.02,0.07",0.71
+I0285,R018,Gajar Ka Halwa,Dessert,106,Y,"0.07,0.72,0.19,0.05",0.55
+I0286,R019,Masala Dosa,Main,76,Y,"0.35,0.08,0.43,0.5",0.74
+I0287,R019,Rava Idli,Main,69,Y,"0.13,0.0,0.25,0.26",0.62
+I0288,R019,Bisi Bele Bath,Main,114,Y,"0.31,0.01,0.49,0.2",0.51
+I0289,R019,Medu Vada,Main,69,Y,"0.13,0.07,0.36,0.2",0.59
+I0290,R019,Uttapam,Main,92,Y,"0.13,0.0,0.31,0.26",0.66
+I0291,R019,Coconut Chutney,Side,18,Y,"0.0,0.03,0.11,0.19",0.88
+I0292,R019,Sambar,Side,28,Y,"0.25,0.07,0.33,0.27",0.72
+I0293,R019,Ghee,Side,15,Y,"0.0,0.13,0.2,0.0",0.88
+I0294,R019,Tomato Chutney,Side,25,Y,"0.0,0.09,0.3,0.59",0.52
+I0295,R019,Filter Coffee,Drink,41,Y,"0.0,0.26,0.12,0.07",0.77
+I0296,R019,Buttermilk,Drink,29,Y,"0.01,0.07,0.19,0.48",0.8
+I0297,R019,Lassi,Drink,74,Y,"0.0,0.31,0.01,0.11",0.6
+I0298,R019,Onion Pakoda,Starter,79,Y,"0.21,0.0,0.35,0.16",0.94
+I0299,R019,Mysore Bonda,Starter,81,Y,"0.22,0.03,0.22,0.07",0.94
+I0300,R019,Mysore Pak,Dessert,67,Y,"0.09,0.95,0.04,0.0",0.68
+I0301,R019,Kesari Bath,Dessert,41,Y,"0.0,0.84,0.16,0.1",0.48
+I0302,R020,Grilled Chicken,Main,338,N,"0.2,0.0,0.42,0.03",0.94
+I0303,R020,Pasta Aglio e Olio,Main,293,Y,"0.27,0.02,0.3,0.0",0.67
+I0304,R020,Fish & Chips,Main,358,N,"0.16,0.06,0.47,0.13",0.94
+I0305,R020,Risotto,Main,308,Y,"0.06,0.08,0.47,0.03",0.73
+I0306,R020,Club Sandwich,Main,248,N,"0.19,0.06,0.46,0.12",0.8
+I0307,R020,Caesar Salad,Side,188,Y,"0.0,0.0,0.34,0.25",0.61
+I0308,R020,Soup of the Day,Side,166,Y,"0.14,0.0,0.39,0.02",0.41
+I0309,R020,Dinner Roll,Side,60,Y,"0.0,0.08,0.14,0.0",0.74
+I0310,R020,Fresh Lime Soda,Drink,85,Y,"0.07,0.05,0.0,0.83",0.51
+I0311,R020,Iced Tea,Drink,90,Y,"0.1,0.2,0.0,0.39",0.65
+I0312,R020,Cold Coffee,Drink,137,Y,"0.0,0.37,0.15,0.04",0.75
+I0313,R020,Bruschetta,Starter,192,Y,"0.05,0.0,0.39,0.26",0.56
+I0314,R020,Chicken Quesadilla,Starter,240,N,"0.39,0.0,0.36,0.14",0.79
+I0315,R020,Cheesecake,Dessert,200,Y,"0.0,0.81,0.19,0.24",0.56
+I0316,R020,Panna Cotta,Dessert,188,Y,"0.04,0.68,0.1,0.16",0.93
+I0317,R021,Classic Burger,Main,195,N,"0.13,0.01,0.49,0.02",0.91
+I0318,R021,Spicy Chicken Burger,Main,210,N,"0.65,0.1,0.34,0.21",0.91
+I0319,R021,Veg Burger,Main,162,Y,"0.15,0.02,0.35,0.05",0.43
+I0320,R021,Double Patty Burger,Main,268,N,"0.31,0.13,0.41,0.08",0.79
+I0321,R021,Zinger Burger,Main,213,N,"0.64,0.03,0.49,0.3",0.49
+I0322,R021,French Fries,Side,110,Y,"0.19,0.08,0.6,0.0",0.93
+I0323,R021,Onion Rings,Side,120,Y,"0.06,0.0,0.55,0.03",0.53
+I0324,R021,Coleslaw,Side,83,Y,"0.04,0.29,0.28,0.24",0.89
+I0325,R021,Peri Peri Fries,Side,115,Y,"0.69,0.0,0.57,0.26",0.5
+I0326,R021,Coca Cola,Drink,73,Y,"0.09,0.59,0.18,0.1",0.71
+I0327,R021,Oreo Shake,Drink,143,Y,"0.09,0.87,0.09,0.03",0.69
+I0328,R021,Vanilla Shake,Drink,158,Y,"0.09,0.87,0.09,0.0",0.46
+I0329,R021,Chicken Popcorn,Starter,155,N,"0.45,0.03,0.54,0.0",0.59
+I0330,R021,Mozzarella Sticks,Starter,179,Y,"0.11,0.15,0.44,0.07",0.89
+I0331,R021,Soft Serve,Dessert,96,Y,"0.0,0.77,0.0,0.0",0.94
+I0332,R021,Brownie Sundae,Dessert,155,Y,"0.0,0.95,0.05,0.0",0.81
+I0333,R022,Classic Burger,Main,200,N,"0.17,0.12,0.41,0.05",0.6
+I0334,R022,Spicy Chicken Burger,Main,197,N,"0.61,0.02,0.36,0.18",0.68
+I0335,R022,Veg Burger,Main,168,Y,"0.28,0.15,0.34,0.13",0.92
+I0336,R022,Double Patty Burger,Main,251,N,"0.32,0.04,0.43,0.03",0.81
+I0337,R022,Zinger Burger,Main,229,N,"0.57,0.14,0.48,0.25",0.84
+I0338,R022,French Fries,Side,116,Y,"0.04,0.0,0.65,0.07",0.45
+I0339,R022,Onion Rings,Side,124,Y,"0.11,0.0,0.58,0.0",0.86
+I0340,R022,Coleslaw,Side,88,Y,"0.0,0.21,0.13,0.27",0.69
+I0341,R022,Peri Peri Fries,Side,113,Y,"0.64,0.04,0.5,0.28",0.65
+I0342,R022,Coca Cola,Drink,51,Y,"0.0,0.5,0.09,0.11",0.65
+I0343,R022,Oreo Shake,Drink,165,Y,"0.0,0.8,0.05,0.0",0.52
+I0344,R022,Vanilla Shake,Drink,132,Y,"0.0,0.77,0.01,0.1",0.91
+I0345,R022,Chicken Popcorn,Starter,152,N,"0.5,0.0,0.46,0.04",0.47
+I0346,R022,Mozzarella Sticks,Starter,190,Y,"0.2,0.13,0.48,0.1",0.61
+I0347,R022,Soft Serve,Dessert,97,Y,"0.08,0.78,0.0,0.09",0.88
+I0348,R022,Brownie Sundae,Dessert,144,Y,"0.03,0.97,0.04,0.01",0.69
+I0349,R023,Margherita Pizza,Main,263,Y,"0.2,0.27,0.55,0.4",0.65
+I0350,R023,Pepperoni Pizza,Main,333,N,"0.31,0.11,0.66,0.15",0.59
+I0351,R023,BBQ Chicken Pizza,Main,348,N,"0.24,0.38,0.55,0.01",0.76
+I0352,R023,Farmhouse Pizza,Main,299,Y,"0.25,0.18,0.3,0.14",0.46
+I0353,R023,Paneer Tikka Pizza,Main,291,Y,"0.59,0.13,0.47,0.15",0.42
+I0354,R023,Garlic Bread,Side,124,Y,"0.05,0.0,0.47,0.0",0.68
+I0355,R023,Stuffed Garlic Bread,Side,159,Y,"0.05,0.08,0.52,0.02",0.82
+I0356,R023,Coleslaw,Side,96,Y,"0.0,0.16,0.13,0.33",0.52
+I0357,R023,Pepsi,Drink,59,Y,"0.0,0.51,0.12,0.25",0.5
+I0358,R023,Mountain Dew,Drink,71,Y,"0.0,0.5,0.09,0.49",0.77
+I0359,R023,Lemonade,Drink,95,Y,"0.0,0.24,0.0,0.76",0.5
+I0360,R023,Pasta Arrabiata,Starter,187,Y,"0.59,0.07,0.26,0.44",0.84
+I0361,R023,Chicken Wings,Starter,239,N,"0.61,0.08,0.38,0.21",0.61
+I0362,R023,Choco Lava Cake,Dessert,148,Y,"0.0,1.0,0.18,0.07",0.45
+I0363,R023,Tiramisu,Dessert,193,Y,"0.07,0.71,0.08,0.02",0.42
+I0364,R024,Margherita Pizza,Main,242,Y,"0.04,0.25,0.54,0.31",0.66
+I0365,R024,Pepperoni Pizza,Main,337,N,"0.38,0.06,0.68,0.14",0.5
+I0366,R024,BBQ Chicken Pizza,Main,363,N,"0.22,0.4,0.5,0.05",0.73
+I0367,R024,Farmhouse Pizza,Main,286,Y,"0.18,0.05,0.36,0.16",0.66
+I0368,R024,Paneer Tikka Pizza,Main,310,Y,"0.57,0.05,0.4,0.2",0.45
+I0369,R024,Garlic Bread,Side,133,Y,"0.09,0.07,0.48,0.0",0.63
+I0370,R024,Stuffed Garlic Bread,Side,168,Y,"0.17,0.05,0.4,0.01",0.72
+I0371,R024,Coleslaw,Side,93,Y,"0.0,0.13,0.17,0.28",0.86
+I0372,R024,Pepsi,Drink,65,Y,"0.01,0.59,0.07,0.25",0.67
+I0373,R024,Mountain Dew,Drink,73,Y,"0.03,0.5,0.0,0.46",0.49
+I0374,R024,Lemonade,Drink,93,Y,"0.01,0.14,0.08,0.9",0.93
+I0375,R024,Pasta Arrabiata,Starter,186,Y,"0.51,0.07,0.39,0.43",0.82
+I0376,R024,Chicken Wings,Starter,223,N,"0.63,0.13,0.31,0.13",0.52
+I0377,R024,Choco Lava Cake,Dessert,154,Y,"0.0,1.0,0.13,0.02",0.67
+I0378,R024,Tiramisu,Dessert,185,Y,"0.0,0.81,0.08,0.0",0.8
+I0379,R025,Chicken Biryani,Main,227,N,"0.9,0.0,0.56,0.23",0.84
+I0380,R025,Mutton Biryani,Main,299,N,"0.74,0.08,0.5,0.05",0.74
+I0381,R025,Veg Biryani,Main,178,Y,"0.56,0.0,0.38,0.17",0.62
+I0382,R025,Prawn Biryani,Main,328,N,"0.65,0.04,0.46,0.37",0.44
+I0383,R025,Egg Biryani,Main,217,N,"0.63,0.0,0.38,0.18",0.66
+I0384,R025,Raita,Side,50,Y,"0.0,0.03,0.2,0.29",0.83
+I0385,R025,Mirchi Ka Salan,Side,58,Y,"0.8,0.09,0.38,0.48",0.53
+I0386,R025,Brinjal Curry,Side,78,Y,"0.57,0.08,0.4,0.21",0.44
+I0387,R025,Lime Soda,Drink,69,Y,"0.0,0.11,0.13,0.64",0.87
+I0388,R025,Lassi,Drink,60,Y,"0.09,0.42,0.15,0.14",0.62
+I0389,R025,Pepsi,Drink,32,Y,"0.0,0.51,0.11,0.27",0.77
+I0390,R025,Chicken 65,Starter,187,N,"0.87,0.05,0.33,0.3",0.8
+I0391,R025,Seekh Kebab,Starter,206,N,"0.75,0.0,0.42,0.05",0.44
+I0392,R025,Veg Shami Kebab,Starter,159,Y,"0.55,0.09,0.38,0.15",0.42
+I0393,R025,Kheer,Dessert,78,Y,"0.06,0.89,0.0,0.01",0.61
+I0394,R025,Gulab Jamun,Dessert,65,Y,"0.04,1.0,0.02,0.02",0.84
+I0395,R026,Chicken Biryani,Main,232,N,"0.71,0.0,0.48,0.26",0.48
+I0396,R026,Mutton Biryani,Main,282,N,"0.76,0.0,0.4,0.06",0.6
+I0397,R026,Veg Biryani,Main,178,Y,"0.42,0.0,0.39,0.21",0.68
+I0398,R026,Prawn Biryani,Main,313,N,"0.61,0.0,0.42,0.32",0.58
+I0399,R026,Egg Biryani,Main,202,N,"0.5,0.0,0.46,0.24",0.71
+I0400,R026,Raita,Side,37,Y,"0.01,0.03,0.18,0.23",0.57
+I0401,R026,Mirchi Ka Salan,Side,55,Y,"0.63,0.0,0.26,0.36",0.83
+I0402,R026,Brinjal Curry,Side,61,Y,"0.45,0.0,0.43,0.32",0.51
+I0403,R026,Lime Soda,Drink,43,Y,"0.0,0.0,0.08,0.77",0.61
+I0404,R026,Lassi,Drink,87,Y,"0.0,0.37,0.16,0.17",0.94
+I0405,R026,Pepsi,Drink,34,Y,"0.0,0.52,0.14,0.2",0.5
+I0406,R026,Chicken 65,Starter,182,N,"0.99,0.0,0.44,0.2",0.72
+I0407,R026,Seekh Kebab,Starter,197,N,"0.67,0.0,0.56,0.07",0.91
+I0408,R026,Veg Shami Kebab,Starter,146,Y,"0.52,0.01,0.44,0.11",0.92
+I0409,R026,Kheer,Dessert,84,Y,"0.09,0.84,0.06,0.07",0.44
+I0410,R026,Gulab Jamun,Dessert,87,Y,"0.06,0.98,0.1,0.03",0.53
+I0411,R027,Butter Chicken,Main,291,N,"0.33,0.18,0.38,0.09",0.73
+I0412,R027,Dal Makhani,Main,228,Y,"0.18,0.1,0.48,0.14",0.7
+I0413,R027,Paneer Butter Masala,Main,275,Y,"0.39,0.24,0.46,0.12",0.9
+I0414,R027,Chicken Tikka Masala,Main,293,N,"0.55,0.13,0.37,0.23",0.42
+I0415,R027,Palak Paneer,Main,250,Y,"0.24,0.0,0.45,0.19",0.64
+I0416,R027,Mutton Rogan Josh,Main,340,N,"0.52,0.0,0.55,0.11",0.78
+I0417,R027,Butter Naan,Side,47,Y,"0.0,0.08,0.35,0.02",0.68
+I0418,R027,Garlic Naan,Side,61,Y,"0.1,0.0,0.36,0.08",0.45
+I0419,R027,Jeera Rice,Side,96,Y,"0.19,0.0,0.26,0.0",0.51
+I0420,R027,Tandoori Roti,Side,45,Y,"0.0,0.0,0.24,0.0",0.44
+I0421,R027,Laccha Paratha,Side,51,Y,"0.06,0.0,0.37,0.03",0.77
+I0422,R027,Mango Lassi,Drink,85,Y,"0.09,0.55,0.1,0.11",0.58
+I0423,R027,Sweet Lassi,Drink,83,Y,"0.09,0.55,0.08,0.0",0.75
+I0424,R027,Masala Chai,Drink,53,Y,"0.08,0.35,0.18,0.0",0.64
+I0425,R027,Paneer Tikka,Starter,210,Y,"0.54,0.0,0.45,0.26",0.43
+I0426,R027,Chicken Tikka,Starter,253,N,"0.56,0.01,0.37,0.04",0.46
+I0427,R027,Tandoori Prawn,Starter,331,N,"0.57,0.01,0.43,0.22",0.74
+I0428,R027,Samosa,Starter,68,Y,"0.22,0.0,0.29,0.13",0.77
+I0429,R027,Gulab Jamun,Dessert,95,Y,"0.0,1.0,0.02,0.0",0.46
+I0430,R027,Rasmalai,Dessert,99,Y,"0.0,0.87,0.0,0.0",0.73
+I0431,R027,Gajar Ka Halwa,Dessert,98,Y,"0.0,0.74,0.13,0.04",0.75
+I0432,R028,Butter Chicken,Main,275,N,"0.41,0.2,0.33,0.06",0.65
+I0433,R028,Dal Makhani,Main,211,Y,"0.27,0.19,0.4,0.04",0.61
+I0434,R028,Paneer Butter Masala,Main,267,Y,"0.3,0.2,0.44,0.08",0.86
+I0435,R028,Chicken Tikka Masala,Main,305,N,"0.43,0.11,0.46,0.14",0.42
+I0436,R028,Palak Paneer,Main,237,Y,"0.21,0.0,0.39,0.15",0.82
+I0437,R028,Mutton Rogan Josh,Main,357,N,"0.6,0.01,0.45,0.11",0.94
+I0438,R028,Butter Naan,Side,57,Y,"0.06,0.01,0.34,0.01",0.94
+I0439,R028,Garlic Naan,Side,53,Y,"0.05,0.03,0.35,0.07",0.42
+I0440,R028,Jeera Rice,Side,78,Y,"0.07,0.06,0.29,0.1",0.83
+I0441,R028,Tandoori Roti,Side,37,Y,"0.0,0.05,0.24,0.07",0.74
+I0442,R028,Laccha Paratha,Side,63,Y,"0.0,0.0,0.24,0.0",0.43
+I0443,R028,Mango Lassi,Drink,91,Y,"0.01,0.52,0.03,0.2",0.56
+I0444,R028,Sweet Lassi,Drink,88,Y,"0.0,0.67,0.2,0.04",0.45
+I0445,R028,Masala Chai,Drink,70,Y,"0.15,0.28,0.01,0.0",0.76
+I0446,R028,Paneer Tikka,Starter,232,Y,"0.57,0.0,0.44,0.27",0.82
+I0447,R028,Chicken Tikka,Starter,271,N,"0.48,0.0,0.43,0.13",0.61
+I0448,R028,Tandoori Prawn,Starter,312,N,"0.53,0.08,0.32,0.2",0.55
+I0449,R028,Samosa,Starter,79,Y,"0.38,0.0,0.3,0.22",0.88
+I0450,R028,Gulab Jamun,Dessert,97,Y,"0.05,1.0,0.09,0.03",0.6
+I0451,R028,Rasmalai,Dessert,92,Y,"0.06,0.88,0.09,0.06",0.67
+I0452,R028,Gajar Ka Halwa,Dessert,90,Y,"0.07,0.77,0.12,0.01",0.67
+I0453,R029,Grilled Chicken,Main,320,N,"0.28,0.05,0.31,0.13",0.86
+I0454,R029,Pasta Aglio e Olio,Main,270,Y,"0.12,0.07,0.29,0.0",0.93
+I0455,R029,Fish & Chips,Main,346,N,"0.3,0.08,0.58,0.06",0.88
+I0456,R029,Risotto,Main,318,Y,"0.05,0.03,0.35,0.0",0.9
+I0457,R029,Club Sandwich,Main,245,N,"0.01,0.03,0.45,0.15",0.64
+I0458,R029,Caesar Salad,Side,172,Y,"0.04,0.0,0.3,0.13",0.52
+I0459,R029,Soup of the Day,Side,161,Y,"0.09,0.0,0.27,0.02",0.87
+I0460,R029,Dinner Roll,Side,72,Y,"0.0,0.01,0.18,0.05",0.46
+I0461,R029,Fresh Lime Soda,Drink,80,Y,"0.0,0.0,0.0,0.96",0.88
+I0462,R029,Iced Tea,Drink,100,Y,"0.1,0.13,0.01,0.2",0.76
+I0463,R029,Cold Coffee,Drink,134,Y,"0.0,0.34,0.15,0.08",0.74
+I0464,R029,Bruschetta,Starter,184,Y,"0.17,0.0,0.22,0.35",0.72
+I0465,R029,Chicken Quesadilla,Starter,222,N,"0.27,0.0,0.46,0.15",0.75
+I0466,R029,Cheesecake,Dessert,197,Y,"0.01,0.82,0.12,0.26",0.78
+I0467,R029,Panna Cotta,Dessert,197,Y,"0.07,0.78,0.0,0.12",0.5
+I0468,R030,Dim Sum Platter,Main,282,Y,"0.26,0.01,0.48,0.29",0.67
+I0469,R030,Ramen,Main,313,N,"0.35,0.03,0.51,0.18",0.41
+I0470,R030,Pad Thai,Main,301,N,"0.39,0.13,0.47,0.41",0.6
+I0471,R030,Sushi Roll,Main,361,N,"0.03,0.0,0.5,0.21",0.72
+I0472,R030,Noodles in Schezwan Sauce,Main,250,Y,"0.75,0.0,0.41,0.26",0.68
+I0473,R030,Gyoza,Side,190,N,"0.34,0.05,0.38,0.18",0.75
+I0474,R030,Spring Roll,Side,157,Y,"0.22,0.0,0.26,0.2",0.51
+I0475,R030,Edamame,Side,135,Y,"0.0,0.0,0.32,0.05",0.76
+I0476,R030,Green Tea,Drink,90,Y,"0.0,0.14,0.05,0.17",0.43
+I0477,R030,Thai Iced Tea,Drink,112,Y,"0.08,0.42,0.12,0.01",0.77
+I0478,R030,Mango Smoothie,Drink,161,Y,"0.05,0.42,0.04,0.14",0.49
+I0479,R030,Chicken Satay,Starter,240,N,"0.27,0.2,0.46,0.15",0.6
+I0480,R030,Prawn Toast,Starter,213,N,"0.26,0.0,0.48,0.15",0.42
+I0481,R030,Mochi,Dessert,165,Y,"0.0,0.7,0.0,0.1",0.75
+I0482,R030,Mango Sticky Rice,Dessert,165,Y,"0.0,0.77,0.0,0.11",0.6
+I0483,R031,Grilled Chicken,Main,318,N,"0.25,0.08,0.43,0.02",0.81
+I0484,R031,Pasta Aglio e Olio,Main,270,Y,"0.11,0.07,0.25,0.0",0.61
+I0485,R031,Fish & Chips,Main,344,N,"0.14,0.09,0.41,0.16",0.79
+I0486,R031,Risotto,Main,310,Y,"0.08,0.0,0.38,0.04",0.55
+I0487,R031,Club Sandwich,Main,242,N,"0.11,0.0,0.43,0.01",0.52
+I0488,R031,Caesar Salad,Side,186,Y,"0.1,0.09,0.21,0.19",0.56
+I0489,R031,Soup of the Day,Side,167,Y,"0.06,0.0,0.29,0.07",0.56
+I0490,R031,Dinner Roll,Side,75,Y,"0.0,0.12,0.19,0.02",0.67
+I0491,R031,Fresh Lime Soda,Drink,94,Y,"0.06,0.05,0.01,0.96",0.48
+I0492,R031,Iced Tea,Drink,109,Y,"0.0,0.15,0.0,0.37",0.88
+I0493,R031,Cold Coffee,Drink,150,Y,"0.0,0.45,0.08,0.05",0.57
+I0494,R031,Bruschetta,Starter,176,Y,"0.11,0.0,0.3,0.21",0.95
+I0495,R031,Chicken Quesadilla,Starter,232,N,"0.26,0.0,0.35,0.27",0.63
+I0496,R031,Cheesecake,Dessert,218,Y,"0.0,0.89,0.02,0.12",0.47
+I0497,R031,Panna Cotta,Dessert,196,Y,"0.0,0.72,0.0,0.13",0.47
+I0498,R032,Grilled Chicken,Main,319,N,"0.15,0.0,0.46,0.14",0.8
+I0499,R032,Pasta Aglio e Olio,Main,280,Y,"0.19,0.0,0.39,0.0",0.82
+I0500,R032,Fish & Chips,Main,343,N,"0.13,0.0,0.49,0.08",0.69
+I0501,R032,Risotto,Main,320,Y,"0.15,0.0,0.39,0.07",0.45
+I0502,R032,Club Sandwich,Main,265,N,"0.14,0.07,0.44,0.01",0.86
+I0503,R032,Caesar Salad,Side,180,Y,"0.0,0.04,0.39,0.18",0.43
+I0504,R032,Soup of the Day,Side,149,Y,"0.05,0.1,0.21,0.08",0.65
+I0505,R032,Dinner Roll,Side,73,Y,"0.01,0.02,0.12,0.06",0.47
+I0506,R032,Fresh Lime Soda,Drink,71,Y,"0.07,0.1,0.0,0.96",0.6
+I0507,R032,Iced Tea,Drink,100,Y,"0.09,0.12,0.02,0.38",0.44
+I0508,R032,Cold Coffee,Drink,122,Y,"0.0,0.43,0.16,0.0",0.87
+I0509,R032,Bruschetta,Starter,195,Y,"0.07,0.0,0.29,0.23",0.72
+I0510,R032,Chicken Quesadilla,Starter,236,N,"0.34,0.0,0.38,0.19",0.59
+I0511,R032,Cheesecake,Dessert,219,Y,"0.0,0.76,0.18,0.11",0.74
+I0512,R032,Panna Cotta,Dessert,177,Y,"0.03,0.7,0.08,0.1",0.45
+I0513,R033,Masala Dosa,Main,82,Y,"0.23,0.04,0.48,0.51",0.75
+I0514,R033,Rava Idli,Main,85,Y,"0.11,0.0,0.28,0.24",0.66
+I0515,R033,Bisi Bele Bath,Main,125,Y,"0.4,0.18,0.5,0.18",0.5
+I0516,R033,Medu Vada,Main,60,Y,"0.22,0.0,0.46,0.06",0.84
+I0517,R033,Uttapam,Main,95,Y,"0.21,0.05,0.4,0.39",0.46
+I0518,R033,Coconut Chutney,Side,31,Y,"0.0,0.11,0.26,0.15",0.82
+I0519,R033,Sambar,Side,45,Y,"0.24,0.07,0.46,0.27",0.86
+I0520,R033,Ghee,Side,32,Y,"0.0,0.15,0.06,0.05",0.6
+I0521,R033,Tomato Chutney,Side,28,Y,"0.01,0.04,0.39,0.51",0.71
+I0522,R033,Filter Coffee,Drink,36,Y,"0.07,0.36,0.19,0.01",0.5
+I0523,R033,Buttermilk,Drink,21,Y,"0.0,0.0,0.14,0.41",0.4
+I0524,R033,Lassi,Drink,79,Y,"0.02,0.46,0.07,0.04",0.84
+I0525,R033,Onion Pakoda,Starter,97,Y,"0.26,0.0,0.32,0.28",0.83
+I0526,R033,Mysore Bonda,Starter,87,Y,"0.21,0.07,0.21,0.14",0.76
+I0527,R033,Mysore Pak,Dessert,68,Y,"0.0,0.86,0.03,0.0",0.92
+I0528,R033,Kesari Bath,Dessert,65,Y,"0.03,0.8,0.06,0.14",0.71
+I0529,R034,Grilled Chicken,Main,338,N,"0.29,0.06,0.34,0.12",0.5
+I0530,R034,Pasta Aglio e Olio,Main,279,Y,"0.25,0.0,0.24,0.0",0.79
+I0531,R034,Fish & Chips,Main,358,N,"0.18,0.1,0.59,0.01",0.73
+I0532,R034,Risotto,Main,319,Y,"0.16,0.02,0.43,0.0",0.67
+I0533,R034,Club Sandwich,Main,250,N,"0.15,0.0,0.5,0.03",0.89
+I0534,R034,Caesar Salad,Side,172,Y,"0.06,0.03,0.35,0.17",0.41
+I0535,R034,Soup of the Day,Side,146,Y,"0.05,0.0,0.25,0.02",0.4
+I0536,R034,Dinner Roll,Side,62,Y,"0.0,0.08,0.13,0.0",0.88
+I0537,R034,Fresh Lime Soda,Drink,81,Y,"0.01,0.0,0.0,0.97",0.76
+I0538,R034,Iced Tea,Drink,101,Y,"0.0,0.19,0.06,0.21",0.41
+I0539,R034,Cold Coffee,Drink,128,Y,"0.09,0.31,0.03,0.0",0.8
+I0540,R034,Bruschetta,Starter,187,Y,"0.19,0.1,0.27,0.4",0.89
+I0541,R034,Chicken Quesadilla,Starter,232,N,"0.21,0.09,0.33,0.28",0.49
+I0542,R034,Cheesecake,Dessert,193,Y,"0.0,0.89,0.08,0.21",0.91
+I0543,R034,Panna Cotta,Dessert,187,Y,"0.0,0.66,0.0,0.01",0.71
+I0544,R035,Grilled Chicken,Main,336,N,"0.2,0.0,0.3,0.02",0.85
+I0545,R035,Pasta Aglio e Olio,Main,290,Y,"0.22,0.0,0.21,0.0",0.56
+I0546,R035,Fish & Chips,Main,342,N,"0.19,0.0,0.56,0.09",0.89
+I0547,R035,Risotto,Main,298,Y,"0.02,0.01,0.34,0.08",0.6
+I0548,R035,Club Sandwich,Main,254,N,"0.01,0.0,0.35,0.17",0.71
+I0549,R035,Caesar Salad,Side,174,Y,"0.05,0.03,0.22,0.17",0.7
+I0550,R035,Soup of the Day,Side,164,Y,"0.12,0.01,0.37,0.16",0.63
+I0551,R035,Dinner Roll,Side,67,Y,"0.04,0.19,0.21,0.0",0.56
+I0552,R035,Fresh Lime Soda,Drink,82,Y,"0.08,0.04,0.0,0.98",0.84
+I0553,R035,Iced Tea,Drink,101,Y,"0.1,0.13,0.09,0.29",0.92
+I0554,R035,Cold Coffee,Drink,125,Y,"0.09,0.46,0.03,0.0",0.94
+I0555,R035,Bruschetta,Starter,183,Y,"0.04,0.06,0.23,0.32",0.58
+I0556,R035,Chicken Quesadilla,Starter,233,N,"0.38,0.0,0.38,0.18",0.58
+I0557,R035,Cheesecake,Dessert,198,Y,"0.0,0.88,0.0,0.24",0.72
+I0558,R035,Panna Cotta,Dessert,195,Y,"0.0,0.68,0.0,0.12",0.82
+I0559,R036,Grilled Chicken,Main,340,N,"0.12,0.0,0.46,0.16",0.88
+I0560,R036,Pasta Aglio e Olio,Main,298,Y,"0.17,0.0,0.28,0.0",0.73
+I0561,R036,Fish & Chips,Main,341,N,"0.13,0.0,0.52,0.14",0.62
+I0562,R036,Risotto,Main,302,Y,"0.18,0.0,0.35,0.05",0.91
+I0563,R036,Club Sandwich,Main,268,N,"0.07,0.0,0.46,0.06",0.86
+I0564,R036,Caesar Salad,Side,197,Y,"0.04,0.0,0.37,0.13",0.94
+I0565,R036,Soup of the Day,Side,154,Y,"0.15,0.0,0.35,0.12",0.45
+I0566,R036,Dinner Roll,Side,64,Y,"0.0,0.16,0.25,0.05",0.88
+I0567,R036,Fresh Lime Soda,Drink,96,Y,"0.0,0.06,0.0,0.94",0.62
+I0568,R036,Iced Tea,Drink,104,Y,"0.07,0.28,0.0,0.24",0.86
+I0569,R036,Cold Coffee,Drink,146,Y,"0.0,0.31,0.01,0.0",0.51
+I0570,R036,Bruschetta,Starter,181,Y,"0.16,0.0,0.33,0.22",0.42
+I0571,R036,Chicken Quesadilla,Starter,221,N,"0.3,0.0,0.49,0.19",0.7
+I0572,R036,Cheesecake,Dessert,201,Y,"0.0,0.88,0.15,0.24",0.56
+I0573,R036,Panna Cotta,Dessert,182,Y,"0.0,0.77,0.06,0.04",0.52
+I0574,R037,Butter Chicken,Main,277,N,"0.44,0.15,0.38,0.0",0.83
+I0575,R037,Dal Makhani,Main,234,Y,"0.24,0.09,0.33,0.03",0.84
+I0576,R037,Paneer Butter Masala,Main,257,Y,"0.25,0.26,0.36,0.19",0.75
+I0577,R037,Chicken Tikka Masala,Main,303,N,"0.58,0.17,0.39,0.14",0.57
+I0578,R037,Palak Paneer,Main,246,Y,"0.26,0.0,0.32,0.1",0.76
+I0579,R037,Mutton Rogan Josh,Main,366,N,"0.67,0.01,0.52,0.06",0.78
+I0580,R037,Butter Naan,Side,55,Y,"0.0,0.2,0.33,0.07",0.54
+I0581,R037,Garlic Naan,Side,72,Y,"0.09,0.03,0.34,0.0",0.53
+I0582,R037,Jeera Rice,Side,71,Y,"0.16,0.06,0.32,0.03",0.77
+I0583,R037,Tandoori Roti,Side,53,Y,"0.0,0.0,0.16,0.08",0.62
+I0584,R037,Laccha Paratha,Side,73,Y,"0.0,0.04,0.31,0.0",0.8
+I0585,R037,Mango Lassi,Drink,87,Y,"0.04,0.53,0.1,0.19",0.6
+I0586,R037,Sweet Lassi,Drink,79,Y,"0.07,0.67,0.18,0.0",0.45
+I0587,R037,Masala Chai,Drink,44,Y,"0.15,0.35,0.11,0.08",0.92
+I0588,R037,Paneer Tikka,Starter,238,Y,"0.47,0.0,0.37,0.25",0.57
+I0589,R037,Chicken Tikka,Starter,275,N,"0.58,0.0,0.42,0.09",0.46
+I0590,R037,Tandoori Prawn,Starter,311,N,"0.57,0.02,0.49,0.11",0.89
+I0591,R037,Samosa,Starter,66,Y,"0.22,0.04,0.31,0.18",0.88
+I0592,R037,Gulab Jamun,Dessert,74,Y,"0.0,0.94,0.08,0.01",0.9
+I0593,R037,Rasmalai,Dessert,104,Y,"0.0,0.97,0.0,0.0",0.58
+I0594,R037,Gajar Ka Halwa,Dessert,85,Y,"0.0,0.71,0.09,0.0",0.83
+I0595,R038,Grilled Chicken,Main,328,N,"0.25,0.0,0.45,0.02",0.74
+I0596,R038,Pasta Aglio e Olio,Main,290,Y,"0.19,0.0,0.3,0.0",0.69
+I0597,R038,Fish & Chips,Main,363,N,"0.17,0.0,0.46,0.17",0.5
+I0598,R038,Risotto,Main,311,Y,"0.0,0.05,0.35,0.08",0.57
+I0599,R038,Club Sandwich,Main,243,N,"0.08,0.02,0.33,0.16",0.56
+I0600,R038,Caesar Salad,Side,179,Y,"0.0,0.0,0.3,0.19",0.78
+I0601,R038,Soup of the Day,Side,144,Y,"0.07,0.08,0.27,0.04",0.92
+I0602,R038,Dinner Roll,Side,79,Y,"0.06,0.0,0.14,0.1",0.52
+I0603,R038,Fresh Lime Soda,Drink,70,Y,"0.02,0.0,0.0,0.93",0.42
+I0604,R038,Iced Tea,Drink,108,Y,"0.03,0.25,0.02,0.32",0.43
+I0605,R038,Cold Coffee,Drink,123,Y,"0.03,0.3,0.14,0.0",0.61
+I0606,R038,Bruschetta,Starter,187,Y,"0.05,0.04,0.24,0.34",0.41
+I0607,R038,Chicken Quesadilla,Starter,223,N,"0.33,0.03,0.35,0.22",0.48
+I0608,R038,Cheesecake,Dessert,216,Y,"0.08,0.8,0.12,0.16",0.83
+I0609,R038,Panna Cotta,Dessert,185,Y,"0.0,0.64,0.0,0.1",0.51
+I0610,R039,Grilled Chicken,Main,332,N,"0.18,0.0,0.41,0.18",0.78
+I0611,R039,Pasta Aglio e Olio,Main,285,Y,"0.17,0.0,0.33,0.08",0.86
+I0612,R039,Fish & Chips,Main,361,N,"0.2,0.09,0.56,0.02",0.8
+I0613,R039,Risotto,Main,318,Y,"0.05,0.0,0.5,0.0",0.66
+I0614,R039,Club Sandwich,Main,243,N,"0.16,0.07,0.47,0.07",0.77
+I0615,R039,Caesar Salad,Side,183,Y,"0.05,0.0,0.35,0.11",0.87
+I0616,R039,Soup of the Day,Side,161,Y,"0.13,0.0,0.38,0.19",0.55
+I0617,R039,Dinner Roll,Side,73,Y,"0.0,0.16,0.14,0.0",0.93
+I0618,R039,Fresh Lime Soda,Drink,78,Y,"0.07,0.04,0.0,0.88",0.89
+I0619,R039,Iced Tea,Drink,85,Y,"0.0,0.24,0.0,0.39",0.49
+I0620,R039,Cold Coffee,Drink,133,Y,"0.08,0.4,0.11,0.0",0.74
+I0621,R039,Bruschetta,Starter,194,Y,"0.07,0.0,0.34,0.37",0.94
+I0622,R039,Chicken Quesadilla,Starter,214,N,"0.3,0.0,0.48,0.19",0.43
+I0623,R039,Cheesecake,Dessert,210,Y,"0.0,0.84,0.14,0.25",0.72
+I0624,R039,Panna Cotta,Dessert,188,Y,"0.0,0.79,0.07,0.1",0.78
+I0625,R040,Masala Dosa,Main,89,Y,"0.22,0.13,0.35,0.47",0.77
+I0626,R040,Rava Idli,Main,72,Y,"0.03,0.07,0.38,0.22",0.41
+I0627,R040,Bisi Bele Bath,Main,129,Y,"0.33,0.17,0.57,0.27",0.44
+I0628,R040,Medu Vada,Main,65,Y,"0.16,0.0,0.36,0.1",0.7
+I0629,R040,Uttapam,Main,92,Y,"0.18,0.0,0.29,0.36",0.65
+I0630,R040,Coconut Chutney,Side,37,Y,"0.0,0.06,0.3,0.15",0.41
+I0631,R040,Sambar,Side,27,Y,"0.28,0.01,0.3,0.22",0.73
+I0632,R040,Ghee,Side,24,Y,"0.03,0.28,0.11,0.03",0.65
+I0633,R040,Tomato Chutney,Side,20,Y,"0.07,0.0,0.24,0.49",0.71
+I0634,R040,Filter Coffee,Drink,49,Y,"0.02,0.34,0.07,0.0",0.45
+I0635,R040,Buttermilk,Drink,41,Y,"0.0,0.0,0.27,0.49",0.56
+I0636,R040,Lassi,Drink,66,Y,"0.0,0.32,0.18,0.1",0.85
+I0637,R040,Onion Pakoda,Starter,93,Y,"0.34,0.0,0.32,0.14",0.91
+I0638,R040,Mysore Bonda,Starter,72,Y,"0.14,0.16,0.24,0.07",0.82
+I0639,R040,Mysore Pak,Dessert,51,Y,"0.09,0.97,0.12,0.05",0.65
+I0640,R040,Kesari Bath,Dessert,61,Y,"0.02,0.8,0.19,0.0",0.8
