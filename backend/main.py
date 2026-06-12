@@ -8,13 +8,8 @@ app = FastAPI(title="Nibble API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://nibble-frontend-mu.vercel.app",  
-        "http://localhost:3000",  
-        "http://localhost:5173", 
-    ],
-    allow_credentials=True,
     allow_origins=["*"],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
